@@ -41,7 +41,6 @@ import Magazine from './pages/magazine.js'
 // Blog pages - NEW IMPORTS
 import Blog from './pages/Blog.js'
 import FundriveBlog from './pages/FundriveBlog.js'
-import BOD from './pages/BOD.js'
 
 function App() {
   return (
