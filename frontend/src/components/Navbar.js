@@ -34,6 +34,7 @@ export default function Navbar() {
                         <a href='/events'>events</a>
                         <a href='/sponsorship'>sponsorship</a>
                         <a href='/stand-for'>charities</a>
+                        <a href='/blog'>blog</a>
                     </div>
                 </div>
                 <div className="dropdown">
