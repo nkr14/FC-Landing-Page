@@ -1,27 +1,27 @@
-import BlogHeader from "../components/BlogHeader";
-import BlogFooter from "../components/BlogFooter";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 // Import all BOD images
-import bodHeader1 from "../assets/bod/bod-header-1.png";
-import bodHeader2 from "../assets/bod/bod-header-2.png";
-import president from "../assets/bod/president.jpeg";
-import vicePresident from "../assets/bod/vice-president.png";
-import artistic from "../assets/bod/artistic.jpeg";
-import assistantArtistic from "../assets/bod/assistant-artistic.jpeg";
-import assistantModel from "../assets/bod/assistant-model.jpg";
-import events from "../assets/bod/events.jpeg";
-import finance from "../assets/bod/finance.png";
-import marketing from "../assets/bod/marketing.jpeg";
-import model1 from "../assets/bod/model-1.jpeg";
-import model2 from "../assets/bod/model-2.jpeg";
-import publicRelations from "../assets/bod/public-relations.jpeg";
-import sponsorship from "../assets/bod/sponsorship.jpeg";
-import stage from "../assets/bod/stage.jpeg";
-import collage1 from "../assets/bod/collage-1.png";
-import collage2 from "../assets/bod/collage-2.png";
-import collage3 from "../assets/bod/collage-3.png";
-import collage4 from "../assets/bod/collage-4.png";
-import collage5 from "../assets/bod/collage-5.png";
+import bodHeader1 from "../images/BOD/bod-header-1.png";
+import bodHeader2 from "../images/BOD/bod-header-2.png";
+import president from "../images/BOD/president.jpeg";
+import vicePresident from "../images/BOD/vice-president.png";
+import artistic from "../images/BOD/artistic.jpeg";
+import assistantArtistic from "../images/BOD/assistant-artistic.jpeg";
+import assistantModel from "../images/BOD/assistant-model.jpg";
+import events from "../images/BOD/events.jpeg";
+import finance from "../images/BOD/finance.png";
+import marketing from "../images/BOD/marketing.jpeg";
+import model1 from "../images/BOD/model-1.jpeg";
+import model2 from "../images/BOD/model-2.jpeg";
+import publicRelations from "../images/BOD/public-relations.jpeg";
+import sponsorship from "../images/BOD/sponsorship.jpeg";
+import stage from "../images/BOD/stage.jpeg";
+import collage1 from "../images/BOD/collage-1.png";
+import collage2 from "../images/BOD/collage-2.png";
+import collage3 from "../images/BOD/collage-3.png";
+import collage4 from "../images/BOD/collage-4.png";
+import collage5 from "../images/BOD/collage-5.png";
 
 const BOD = () => {
   const positions = [
@@ -94,7 +94,7 @@ const BOD = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <BlogHeader />
+      <Navbar />
       
       {/* Hero Section */}
       <section className="relative bg-black">
@@ -154,7 +154,7 @@ const BOD = () => {
         </div>
       </div>
 
-      <BlogFooter />
+      <Footer />
     </div>
   );
 };
