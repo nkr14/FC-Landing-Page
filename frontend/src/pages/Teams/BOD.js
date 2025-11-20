@@ -1,4 +1,4 @@
-import Nav from '../../components/Navbar.js'
+import Nav from '../../components/Navbar.js';
 import Footer from '../../components/Footer.js';
 
 // Import all BOD images
