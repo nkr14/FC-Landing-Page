@@ -1,3 +1,5 @@
+import footerLogo from "../images/FC-Footer-Logo.png";
+
 const BlogFooter = () => {
   const footerSections = [
     {
@@ -63,7 +65,7 @@ const BlogFooter = () => {
         </div>
         <div className="flex flex-col items-center space-y-6">
           <img
-            src="/FC-Footer-Logo.png"
+            src={footerLogo}
             alt="Fashion for Change"
             className="h-24 w-auto"
           />
