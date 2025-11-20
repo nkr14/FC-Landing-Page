@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import BlogHeader from "../components/BlogHeader";
 import BlogFooter from "../components/BlogFooter";
+import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 
 const Blog = () => {
   return (
@@ -18,7 +19,7 @@ const Blog = () => {
             {/* Featured Image */}
             <div className="rounded-3xl overflow-hidden">
               <img 
-                src="/blog-header-photo.jpeg" 
+                src={blogHeaderPhoto}
                 alt="FUNdrive Campaign featuring sustainable fashion models" 
                 className="w-full h-full object-cover aspect-[4/3]"
               />
