@@ -6,7 +6,7 @@ import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 const Blog = () => {
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      <BlogHeader />
+      <Nav />
       
       <main className="max-w-7xl mx-auto px-4 md:px-12 py-12 md:py-20">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium mb-12 md:mb-20">
