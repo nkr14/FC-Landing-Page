@@ -38,6 +38,11 @@ import ShowsTuesday from './pages/Shows/Tuesday.js'
 
 import Magazine from './pages/magazine.js'
 
+// Blog pages
+import Blog from './pages/Blog.js'
+import FundriveBlog from './pages/FundriveBlog.js'
+import BOD from './pages/BOD.js'
+
 function App() {
   return (
     <div className="App">
@@ -166,6 +171,19 @@ function App() {
             <Route
               path="/magazine"
               element={<Magazine />}
+
+            <Route
+              path="/blog"
+              element={<Blog />}
+            />
+            <Route
+              path="/blog/fundrive"
+              element={<FundriveBlog />}
+            />
+            <Route
+              path="/board-of-directors"
+              element={<BOD />}
+            />
             />
           </Routes>
         </BrowserRouter>
