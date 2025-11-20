@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Nav from '../../components/Navbar.js'
+import Nav from '../../components/Navbar.js';
 import Footer from '../../components/Footer.js';
 import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 
