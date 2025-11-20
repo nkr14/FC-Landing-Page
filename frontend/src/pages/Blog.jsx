@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import BlogHeader from "../components/BlogHeader";
-import BlogFooter from "../components/BlogFooter";
+import Nav from '../../components/Navbar.js'
+import Footer from '../../components/Footer.js';
 import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 
 const Blog = () => {
@@ -43,7 +43,7 @@ const Blog = () => {
         </Link>
       </main>
 
-      <BlogFooter />
+      <Footer />
     </div>
   );
 };
