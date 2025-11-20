@@ -1,5 +1,9 @@
 import BlogHeader from "../components/BlogHeader";
 import BlogFooter from "../components/BlogFooter";
+import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
+import blog1stPhoto from "../images/blog-1st-photo.jpeg";
+import blog2ndPhoto from "../images/blog-2nd-photo-reduced.jpeg";
+import blog3rdPhoto from "../images/blog-3rd-photo.webp";
 
 const FundriveBlog = () => {
   return (
@@ -26,7 +30,7 @@ const FundriveBlog = () => {
           {/* Hero Image */}
           <div className="w-full rounded-3xl overflow-hidden my-12">
             <img 
-              src="/blog-header-photo.jpeg" 
+              src={blogHeaderPhoto}
               alt="FUNdrive Campaign" 
               className="w-full h-auto object-cover"
             />
@@ -60,21 +64,21 @@ const FundriveBlog = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
             <div className="rounded-3xl overflow-hidden">
               <img 
-                src="/blog-1st-photo.jpeg" 
+                src={blog1stPhoto}
                 alt="Sustainable fashion initiative" 
                 className="w-full h-full object-cover aspect-[4/5]"
               />
             </div>
             <div className="rounded-3xl overflow-hidden">
               <img 
-                src="/blog-2nd-photo-reduced.jpeg" 
+                src={blog2ndPhoto}
                 alt="Community clothing drive" 
                 className="w-full h-full object-cover aspect-[4/5]"
               />
             </div>
             <div className="rounded-3xl overflow-hidden">
               <img 
-                src="/blog-3rd-photo.webp" 
+                src={blog3rdPhoto}
                 alt="Fashion for Change event" 
                 className="w-full h-full object-cover aspect-[4/5]"
               />
