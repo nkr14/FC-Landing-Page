@@ -1,5 +1,5 @@
-import BlogHeader from "../components/BlogHeader";
-import BlogFooter from "../components/BlogFooter";
+import Nav from '../../components/Navbar.js'
+import Footer from '../../components/Footer.js';
 import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 import blog1stPhoto from "../images/blog-1st-photo.jpeg";
 import blog2ndPhoto from "../images/blog-2nd-photo-reduced.jpeg";
@@ -8,7 +8,7 @@ import blog3rdPhoto from "../images/blog-3rd-photo.webp";
 const FundriveBlog = () => {
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      <BlogHeader />
+      <Nav />
       
       <main className="max-w-7xl mx-auto px-4 md:px-12 py-12 md:py-20">
         {/* Hero Section */}
@@ -87,7 +87,7 @@ const FundriveBlog = () => {
         </article>
       </main>
 
-      <BlogFooter />
+      <Footer />
     </div>
   );
 };
