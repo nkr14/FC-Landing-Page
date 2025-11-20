@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../images/FC-Header-Logo.png";
 
 const BlogHeader = () => {
   return (
@@ -6,7 +7,7 @@ const BlogHeader = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/">
           <img 
-            src="/FC-Header-Logo.png" 
+            src={logo}
             alt="Fashion for Change Logo" 
             className="h-12 md:h-14 w-auto"
           />
