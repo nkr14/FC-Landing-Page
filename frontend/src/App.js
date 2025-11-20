@@ -38,7 +38,7 @@ import ShowsTuesday from './pages/Shows/Tuesday.js'
 
 import Magazine from './pages/magazine.js'
 
-// Blog pages
+// Blog pages - NEW IMPORTS
 import Blog from './pages/Blog.js'
 import FundriveBlog from './pages/FundriveBlog.js'
 import BOD from './pages/BOD.js'
@@ -171,7 +171,9 @@ function App() {
             <Route
               path="/magazine"
               element={<Magazine />}
+            />
 
+            {/* NEW BLOG ROUTES */}
             <Route
               path="/blog"
               element={<Blog />}
@@ -184,7 +186,6 @@ function App() {
               path="/board-of-directors"
               element={<BOD />}
             />
-            />
           </Routes>
         </BrowserRouter>
       </ImagesProvider>
@@ -193,4 +194,3 @@ function App() {
 }
 
 export default App;
-
