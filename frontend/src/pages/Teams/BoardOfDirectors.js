@@ -1,5 +1,5 @@
-import Nav from '../../components/Navbar.js';
-import Footer from '../../components/Footer.js';
+import Navbar from "../../components/Navbar.js";
+import Footer from "../../components/Footer.js";
 
 // Import all BOD images
 import bodHeader1 from "../images/BOD/bod-header-1.png";
