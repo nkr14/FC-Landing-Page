@@ -23,7 +23,7 @@ import collage3 from "../images/BOD/collage-3.png";
 import collage4 from "../images/BOD/collage-4.png";
 import collage5 from "../images/BOD/collage-5.png";
 
-const BOD = () => {
+const BoardOfDirectors = () => {
   const positions = [
     {
       title: "President",
@@ -159,4 +159,4 @@ const BOD = () => {
   );
 };
 
-export default BOD;
+export default BoardOfDirectors;
