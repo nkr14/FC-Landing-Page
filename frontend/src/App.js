@@ -127,7 +127,7 @@ function App() {
               element={<ContactUs />}
             />
             <Route
-              path="/teams/bod"
+              path="/board-of-directors"
               element={<BoardOfDirectors />}
             />
             <Route
