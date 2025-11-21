@@ -1,5 +1,5 @@
-import Nav from '../../components/Navbar.js';
-import Footer from '../../components/Footer.js';
+import Navbar from "../components/Navbar.js";
+import Footer from "../components/Footer.js";
 import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 import blog1stPhoto from "../images/blog-1st-photo.jpeg";
 import blog2ndPhoto from "../images/blog-2nd-photo-reduced.jpeg";
