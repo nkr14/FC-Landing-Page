@@ -1,7 +1,8 @@
-// DONE
+// UPDATED TO PDF INSTEAD OF FLIPBOOK
 
 import Nav from '../components/Navbar.js'
 import Footer from "../components/Footer.js";
+import MagazinePDF from '../images/magazine.pdf';
 
 const Magazine = () => {
     return(
@@ -14,7 +15,7 @@ const Magazine = () => {
                 padding: "20px"
             }}>
                 <object
-                    data="/path-to-your-magazine.pdf#view=FitH"
+                    data={`${MagazinePDF}#view=FitH`}
                     type="application/pdf"
                     width="100%"
                     height="800px"
@@ -24,7 +25,7 @@ const Magazine = () => {
                     }}
                 >
                     <iframe
-                        src="/magazine.pdf#view=FitH"
+                        src={`${MagazinePDF}#view=FitH`}
                         width="100%"
                         height="800px"
                         style={{ border: "1px solid lightgray" }}
@@ -32,7 +33,7 @@ const Magazine = () => {
                     >
                         <p>
                             Your browser doesn't support PDF viewing. 
-                            <a href="/path-to-your-magazine.pdf">Download the PDF</a> instead.
+                            <a href={MagazinePDF}>Download the PDF</a> instead.
                         </p>
                     </iframe>
                 </object>
