@@ -1,27 +1,27 @@
 import Navbar from "../../components/Navbar.js";
 import Footer from "../../components/Footer.js";
 
-// Import all BOD images
-import bodHeader1 from "../images/BOD/bod-header-1.png";
-import bodHeader2 from "../images/BOD/bod-header-2.png";
-import president from "../images/BOD/president.jpeg";
-import vicePresident from "../images/BOD/vice-president.png";
-import artistic from "../images/BOD/artistic.jpeg";
-import assistantArtistic from "../images/BOD/assistant-artistic.jpeg";
-import assistantModel from "../images/BOD/assistant-model.jpg";
-import events from "../images/BOD/events.jpeg";
-import finance from "../images/BOD/finance.png";
-import marketing from "../images/BOD/marketing.jpeg";
-import model1 from "../images/BOD/model-1.jpeg";
-import model2 from "../images/BOD/model-2.jpeg";
-import publicRelations from "../images/BOD/public-relations.jpeg";
-import sponsorship from "../images/BOD/sponsorship.jpeg";
-import stage from "../images/BOD/stage.jpeg";
-import collage1 from "../images/BOD/collage-1.png";
-import collage2 from "../images/BOD/collage-2.png";
-import collage3 from "../images/BOD/collage-3.png";
-import collage4 from "../images/BOD/collage-4.png";
-import collage5 from "../images/BOD/collage-5.png";
+// Import all BOD images - CORRECTED PATHS
+import bodHeader1 from "../../images/BOD/bod-header-1.png";
+import bodHeader2 from "../../images/BOD/bod-header-2.png";
+import president from "../../images/BOD/president.jpeg";
+import vicePresident from "../../images/BOD/vice-president.png";
+import artistic from "../../images/BOD/artistic.jpeg";
+import assistantArtistic from "../../images/BOD/assistant-artistic.jpeg";
+import assistantModel from "../../images/BOD/assistant-model.jpg";
+import events from "../../images/BOD/events.jpeg";
+import finance from "../../images/BOD/finance.png";
+import marketing from "../../images/BOD/marketing.jpeg";
+import model1 from "../../images/BOD/model-1.jpeg";
+import model2 from "../../images/BOD/model-2.jpeg";
+import publicRelations from "../../images/BOD/public-relations.jpeg";
+import sponsorship from "../../images/BOD/sponsorship.jpeg";
+import stage from "../../images/BOD/stage.jpeg";
+import collage1 from "../../images/BOD/collage-1.png";
+import collage2 from "../../images/BOD/collage-2.png";
+import collage3 from "../../images/BOD/collage-3.png";
+import collage4 from "../../images/BOD/collage-4.png";
+import collage5 from "../../images/BOD/collage-5.png";
 
 const BoardOfDirectors = () => {
   const positions = [
