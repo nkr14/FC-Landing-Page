@@ -8,7 +8,7 @@ import blog3rdPhoto from "../images/blog-3rd-photo.webp";
 const FundriveBlog = () => {
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      <Nav />
+      <Navbar />
       
       <main className="max-w-7xl mx-auto px-4 md:px-12 py-12 md:py-20">
         {/* Hero Section */}
