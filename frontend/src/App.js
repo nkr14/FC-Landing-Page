@@ -36,7 +36,7 @@ import ShowsSpunFromGold from './pages/Shows/SpunFromGold.js'
 import ShowsSoul from './pages/Shows/Soul.js'
 import ShowsTuesday from './pages/Shows/Tuesday.js'
 
-import Magazine from './pages/magazine.js'
+import Magazine from './pages/Magazine.js'
 
 // Blog pages
 import Blog from './pages/Blog.js'
