@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar.js";
 import Footer from "../../components/Footer.js";
 
-// Import all BOD images - CORRECTED PATHS
+// Import all BOD images - using GitHub repo paths
 import bodHeader1 from "../../images/BOD/bod-header-1.png";
 import bodHeader2 from "../../images/BOD/bod-header-2.png";
 import president from "../../images/BOD/president.jpeg";
@@ -95,62 +95,61 @@ const BoardOfDirectors = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative bg-black">
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <img src={bodHeader1} alt="BOD Team 1" loading="eager" className="w-full h-[400px] md:h-[500px] object-cover object-center" />
-          <img src={bodHeader2} alt="BOD Team 2" loading="eager" className="w-full h-[400px] md:h-[500px] object-cover object-center" />
+          <img src={bodHeader1} alt="BOD Team 1" loading="eager" className="w-full h-[600px] md:h-[700px] lg:h-[800px] object-cover object-center" />
+          <img src={bodHeader2} alt="BOD Team 2" loading="eager" className="w-full h-[600px] md:h-[700px] lg:h-[800px] object-cover object-center" />
         </div>
-        <div className="absolute bottom-6 left-6 md:bottom-8 md:left-8">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-2xl">bod</h1>
+        <div className="absolute bottom-8 left-8 md:bottom-12 md:left-12">
+          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-white drop-shadow-2xl">bod</h1>
         </div>
       </section>
 
       {/* Main Content */}
-      <div className="max-w-6xl mx-auto px-6 py-12">
+      <div className="max-w-7xl mx-auto px-6 py-16 md:py-24">
         {/* Title and Purpose */}
-        <div className="mb-12">
-          <h2 className="text-3xl md:text-4xl font-medium mb-6">Board of Directors (BOD)</h2>
+        <div className="mb-16">
+          <h2 className="text-4xl md:text-5xl font-medium mb-8">Board of Directors (BOD)</h2>
           <div>
-            <h3 className="text-2xl font-medium mb-3">Purpose</h3>
-            <p className="text-sm md:text-base leading-relaxed">
+            <h3 className="text-3xl font-medium mb-4">Purpose</h3>
+            <p className="text-lg leading-relaxed max-w-4xl">
               The Board of Directors (BOD) lead the strategic direction and execution of Fashion for Change. Each director oversees their respective committee, making key decisions that shape the creative and operational success of the club. The BOD collaborates to ensure every show, event, and initiative aligns with our mission of sustainability, inclusivity, and creative excellence. Together, they create the framework for an impactful student-run organization that empowers its members and inspires the community.
             </p>
           </div>
         </div>
 
-        {/* Positions Grid - 2 columns */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Positions Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
           {positions.map((position, index) => (
-            <div key={index} className="flex gap-4">
-              <div className="flex-shrink-0">
+            <div key={index} className="flex flex-col md:flex-row gap-6">
+              <div className="flex-shrink-0 bg-black rounded-[15px] overflow-hidden">
                 <img 
                   src={position.image} 
                   alt={position.title}
                   loading="lazy"
-                  className="w-24 h-32 md:w-28 md:h-36 object-cover rounded-lg"
+                  className="w-full md:w-48 h-64 object-cover rounded-[15px]"
                 />
               </div>
               <div className="flex-1">
-                <h4 className="text-lg md:text-xl font-medium mb-2">{position.title}</h4>
-                <p className="text-xs md:text-sm leading-relaxed">{position.description}</p>
+                <h4 className="text-2xl md:text-3xl font-medium mb-3">{position.title}</h4>
+                <p className="text-base leading-relaxed">{position.description}</p>
               </div>
             </div>
           ))}
         </div>
 
         {/* Bottom Gallery */}
-        <div className="mt-16">
-          <div className="grid grid-cols-3 gap-4 mb-4">
-            <img src={collage1} alt="Team group photo" loading="lazy" className="w-full h-48 object-cover rounded-lg" />
-            <img src={collage2} alt="Fashion show performance" loading="lazy" className="w-full h-48 object-cover rounded-lg" />
-            <img src={collage3} alt="Fashion for Change team event" loading="lazy" className="w-full h-48 object-cover rounded-lg" />
+        <div className="mt-24 max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+            <img src={collage1} alt="Team group photo" loading="lazy" className="w-full h-64 md:h-80 object-cover rounded-[15px]" />
+            <img src={collage2} alt="Fashion show performance" loading="lazy" className="w-full h-64 md:h-80 object-cover rounded-[15px]" />
+            <img src={collage3} alt="Fashion for Change team event" loading="lazy" className="w-full h-64 md:h-80 object-cover rounded-[15px]" />
           </div>
-          <div className="grid grid-cols-3 gap-4">
-            <img src={collage4} alt="Team collaboration" loading="lazy" className="w-full h-48 object-cover rounded-lg" />
-            <img src={collage5} alt="Dance workshop preparation" loading="lazy" className="w-full h-48 object-cover rounded-lg" />
-            <div className="bg-gray-900 rounded-lg"></div>
+          <div className="grid grid-cols-2 gap-6 mt-6 max-w-4xl mx-auto">
+            <img src={collage4} alt="Team collaboration" loading="lazy" className="w-full h-64 md:h-80 object-cover rounded-[15px]" />
+            <img src={collage5} alt="Dance workshop preparation" loading="lazy" className="w-full h-64 md:h-80 object-cover rounded-[15px]" />
           </div>
         </div>
       </div>
