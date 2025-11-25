@@ -8,7 +8,7 @@ import { ImagesProvider } from './context/ImagesContext.js'
 
 // Teams pages
 import TeamSponsorship from './pages/Teams/Sponsorship.js'
-import BoardOfDirectors from './pages/Teams/BoardOfDirectors.js'
+import BOD from './pages/Teams/BoardOfDirectors.js'
 import TeamsArtistic from './pages/Teams/Artistic.js'
 import TeamsEvents from './pages/Teams/Events.js'
 import TeamsStage from './pages/Teams/Stage.js'
@@ -38,7 +38,7 @@ import ShowsTuesday from './pages/Shows/Tuesday.js'
 
 import Magazine from './pages/magazine.js'
 
-// Blog pages - NEW IMPORTS
+// Blog pages
 import Blog from './pages/Blog.js'
 import FundriveBlog from './pages/FundriveBlog.js'
 
@@ -127,8 +127,8 @@ function App() {
               element={<ContactUs />}
             />
             <Route
-              path="/board-of-directors"
-              element={<BoardOfDirectors />}
+              path="/teams/bod"
+              element={<BOD />}
             />
             <Route
               path="/teams/artistic"
@@ -172,7 +172,7 @@ function App() {
               element={<Magazine />}
             />
 
-            {/* NEW BLOG ROUTES */}
+            {/* Blog routes */}
             <Route
               path="/blog"
               element={<Blog />}
@@ -180,10 +180,6 @@ function App() {
             <Route
               path="/blog/fundrive"
               element={<FundriveBlog />}
-            />
-            <Route
-              path="/board-of-directors"
-              element={<BOD />}
             />
           </Routes>
         </BrowserRouter>
