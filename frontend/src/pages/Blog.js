@@ -13,17 +13,30 @@ const Blog = () => {
           the blog
         </h1>
 
-        {/* Blog Card - Clickable */}
         <Link to="/blog/fundrive" className="block group">
           <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             
-            {/* Featured Image - Responsive Max Size (906 x 584) */}
-            <div className="rounded-[20px] overflow-hidden max-w-[906px] w-full">
-              <img 
-                src={blogHeaderPhoto}
-                alt="FUNdrive Campaign featuring sustainable fashion models" 
-                className="w-full h-auto object-cover group-hover:opacity-90 transition-opacity"
-              />
+            {/* ✅ HARD MAX-SIZE IMAGE LOCK */}
+            <div className="flex justify-start">
+              <div
+                className="rounded-[20px] overflow-hidden"
+                style={{
+                  maxWidth: "906px",
+                  width: "100%"
+                }}
+              >
+                <img 
+                  src={blogHeaderPhoto}
+                  alt="FUNdrive Campaign featuring sustainable fashion models"
+                  style={{
+                    width: "100%",
+                    maxWidth: "906px",
+                    height: "auto",
+                    display: "block"
+                  }}
+                  className="group-hover:opacity-90 transition-opacity"
+                />
+              </div>
             </div>
 
             {/* Content */}
