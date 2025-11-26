@@ -16,7 +16,7 @@ const Blog = () => {
         <Link to="/blog/fundrive" className="block group">
           <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             
-            {/* ✅ HARD MAX-SIZE IMAGE LOCK */}
+            {/* HARD MAX-SIZE IMAGE LOCK */}
             <div className="flex justify-start">
               <div
                 className="rounded-[20px] overflow-hidden"
