@@ -14,7 +14,9 @@ const Blog = () => {
           fontWeight: '500', 
           marginBottom: '80px',
           letterSpacing: '-0.02em',
-          color: '#ffffff'
+          color: '#ffffff',
+          textAlign: 'left',
+          paddingLeft: '0'
         }}>
           the blog
         </h1>
@@ -22,7 +24,7 @@ const Blog = () => {
         <Link to="/blog/fundrive" style={{ textDecoration: 'none', color: 'inherit' }}>
           <article style={{ 
             display: 'grid', 
-            gridTemplateColumns: '400px 1fr', 
+            gridTemplateColumns: '600px 1fr', 
             gap: '48px', 
             alignItems: 'center' 
           }}>
@@ -31,8 +33,8 @@ const Blog = () => {
               src={blogHeaderPhoto}
               alt="FUNdrive Campaign featuring sustainable fashion models" 
               style={{ 
-                width: '400px', 
-                height: '300px', 
+                width: '600px', 
+                height: '450px', 
                 objectFit: 'cover',
                 borderRadius: '20px',
                 flexShrink: 0,
