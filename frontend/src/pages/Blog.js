@@ -17,11 +17,11 @@ const Blog = () => {
         <Link to="/blog/fundrive" className="block group">
           <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Featured Image */}
-            <div className="rounded-[20px] overflow-hidden">
+            <div className="rounded-[20px] overflow-hidden" style={{ maxWidth: '500px' }}>
               <img 
                 src={blogHeaderPhoto}
                 alt="FUNdrive Campaign featuring sustainable fashion models" 
-                className="w-full h-[400px] lg:h-[450px] object-cover group-hover:opacity-90 transition-opacity"
+                className="w-full h-[350px] object-cover group-hover:opacity-90 transition-opacity"
               />
             </div>
 
