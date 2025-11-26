@@ -12,7 +12,7 @@ import assistantModel from "../../images/BOD/assistant-model.jpg";
 import events from "../../images/BOD/events.jpeg";
 import finance from "../../images/BOD/finance.png";
 import marketing from "../../images/BOD/marketing.jpg";
-import model1 from "../../images/BOD/model-1.jpg";
+import model1 from "../../images/BOD/model-1-final-min.jpeg";
 import model2 from "../../images/BOD/model-2.jpeg";
 import publicRelations from "../../images/BOD/public-relations.jpeg";
 import sponsorship from "../../images/BOD/sponsorship.jpeg";
