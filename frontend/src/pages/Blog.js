@@ -47,7 +47,8 @@ const Blog = () => {
               display: 'flex', 
               flexDirection: 'column', 
               justifyContent: 'center', 
-              gap: '24px' 
+              gap: '24px',
+              textAlign: 'left'
             }}>
               <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
                 November 14, 2025
