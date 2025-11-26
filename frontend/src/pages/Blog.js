@@ -22,27 +22,18 @@ const Blog = () => {
             }}
           >
             {/* Image */}
-            <div
+            <img
+              src={blogHeaderPhoto}
+              alt="FUNdrive Campaign featuring sustainable fashion models"
               style={{
-                maxWidth: "350px",
-                width: "100%",
+                width: "350px",
+                height: "490px",
+                objectFit: "cover",
                 borderRadius: "20px",
-                overflow: "hidden"
+                flexShrink: 0
               }}
-            >
-              <img
-                src={blogHeaderPhoto}
-                alt="FUNdrive Campaign featuring sustainable fashion models"
-                style={{
-                  width: "100%",
-                  height: "auto",
-                  display: "block",
-                  borderRadius: "20px",
-                  maxWidth: "350px"
-                }}
-                className="group-hover:opacity-90 transition-opacity"
-              />
-            </div>
+              className="group-hover:opacity-90 transition-opacity"
+            />
 
             <div className="flex flex-col justify-center space-y-4 md:space-y-6 max-w-xl">
               <time className="text-gray-400 text-sm md:text-base">
