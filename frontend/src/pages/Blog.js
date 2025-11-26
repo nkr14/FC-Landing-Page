@@ -59,7 +59,8 @@ const Blog = () => {
                 fontWeight: '500', 
                 lineHeight: '1.2',
                 margin: '0',
-                color: '#ffffff'
+                color: '#ffffff',
+                textTransform: 'none'
               }}>
                 Join Our First Annual FUNdrive!
               </h2>
