@@ -23,7 +23,7 @@ const FundriveBlog = () => {
       <main style={{ maxWidth: '1280px', margin: '0 auto', padding: '80px 48px' }}>
         {/* Hero Section */}
         <article style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>
             <div style={{ color: '#a0a0a0', fontSize: '18px', display: 'block', textAlign: 'left' }}>
               November 14, 2025
             </div>
