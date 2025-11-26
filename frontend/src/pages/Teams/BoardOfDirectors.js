@@ -61,19 +61,14 @@ const BoardOfDirectors = () => {
       description: "The Assistant Model Director supports the Model Director in recruiting, training, and coordinating models. They help ensure smooth operations during workshops, rehearsals, and fittings, and assist with role assignments throughout the fashion show process."
     },
     {
-      title: "Finance",
-      image: finance,
-      description: "The Finance Director manages the club's budget and financial planning by leading the Finance Team and processing expenditures and reimbursements. They also draft endowment fund proposals to secure funding in support of the club's initiatives."
-    },
-    {
       title: "Stage",
       image: stage,
       description: "The Stage Director oversees technical and backstage preparations by managing the Stage Team and coordinating the lighting and sound elements of the show. They work closely with the Artistic and Model teams in the lead-up to show day to make sure everything runs smoothly on stage."
     },
     {
-      title: "Sponsorship",
-      image: sponsorship,
-      description: "The Sponsorship Director leads efforts to secure both monetary and non-monetary sponsorships, overseeing the Sponsorship Team and engaging with external partners."
+      title: "Finance",
+      image: finance,
+      description: "The Finance Director manages the club's budget and financial planning by leading the Finance Team and processing expenditures and reimbursements. They also draft endowment fund proposals to secure funding in support of the club's initiatives."
     },
     {
       title: "Events",
@@ -81,132 +76,61 @@ const BoardOfDirectors = () => {
       description: "The Events Director leads the Events Committee in organizing social events and club activities throughout the year. They coordinate logistics, manage resources, and ensure events align with the club's goals and WUSA regulations."
     },
     {
-      title: "Marketing",
-      image: marketing,
-      description: "The Marketing Director oversees the development of visual and promotional content by managing a team of photographers/videographers, graphic designers and writers. They coordinate creative efforts to build a consistent and engaging brand image across all club activities."
+      title: "Sponsorship",
+      image: sponsorship,
+      description: "The Sponsorship Director leads efforts to secure both monetary and non-monetary sponsorships, overseeing the Sponsorship Team and engaging with external partners."
     },
     {
       title: "Public Relations",
       image: publicRelations,
       description: "The PR Director leads the Public Relations Team, promoting the FC brand across online, digital, and physical media. They also manage communication with the selected charity and help strengthen the club's external relationships."
+    },
+    {
+      title: "Marketing",
+      image: marketing,
+      description: "The Marketing Director oversees the development of visual and promotional content by managing a team of photographers/videographers, graphic designers and writers. They coordinate creative efforts to build a consistent and engaging brand image across all club activities."
     }
   ];
 
+  const collageImages = [collage1, collage2, collage3, collage4, collage5];
+
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="teams">
       <Navbar />
       
-      {/* Hero Section */}
-      <section className="relative bg-black">
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <img 
-            src={bodHeader1} 
-            alt="BOD Team 1" 
-            loading="eager" 
-            fetchPriority="high" 
-            decoding="async" 
-            sizes="(min-width: 768px) 50vw, 100vw" 
-            className="w-full h-[600px] md:h-[700px] lg:h-[800px] object-cover object-center" 
-          />
-          <img 
-            src={bodHeader2} 
-            alt="BOD Team 2" 
-            loading="eager" 
-            fetchPriority="high" 
-            decoding="async" 
-            sizes="(min-width: 768px) 50vw, 100vw" 
-            className="w-full h-[600px] md:h-[700px] lg:h-[800px] object-cover object-center" 
-          />
+      {/* Board of Directors Header */}
+      <div className="team-header">
+        <img src={bodHeader1} alt="board of directors" />
+        <img src={bodHeader2} alt="board of directors" />
+        <div className="header-overlay">
+          <h1>bod</h1>
         </div>
-        <div className="absolute bottom-8 left-8 md:bottom-12 md:left-12">
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-white drop-shadow-2xl">bod</h1>
-        </div>
-      </section>
+      </div>
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 py-16 md:py-24">
-        {/* Title and Purpose */}
-        <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-medium mb-8">Board of Directors (BOD)</h2>
-          <div>
-            <h3 className="text-3xl font-medium mb-4">Purpose</h3>
-            <p className="text-lg leading-relaxed max-w-4xl">
-              The Board of Directors (BOD) lead the strategic direction and execution of Fashion for Change. Each director oversees their respective committee, making key decisions that shape the creative and operational success of the club. The BOD collaborates to ensure every show, event, and initiative aligns with our mission of sustainability, inclusivity, and creative excellence. Together, they create the framework for an impactful student-run organization that empowers its members and inspires the community.
-            </p>
-          </div>
-        </div>
+      <div className="bod">
+        <h1>Board of Directors (BOD)</h1>
+        <h2>Purpose</h2>
+        <p>The Board of Directors (BOD) leads the strategic direction and execution of Fashion for Change. Each director oversees their respective committee, making key decisions that shape the creative and operational success of the club. The BOD collaborates to ensure every show, event, and initiative aligns with our mission of creativity, inclusivity, and charitable impact. Together, they mentor their teams, foster collaboration, and create a platform where passion and purpose meet.</p>
 
-        {/* Positions Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+        <div className="directors-box">
           {positions.map((position, index) => (
-            <div key={index} className="flex flex-col md:flex-row gap-6">
-              <div className="flex-shrink-0 bg-black rounded-[15px] overflow-hidden">
-                <img 
-                  src={position.image} 
-                  alt={position.title}
-                  loading="lazy"
-                  decoding="async"
-                  sizes="(min-width: 768px) 12rem, 100vw"
-                  className="w-full md:w-48 h-64 object-cover rounded-[15px]"
-                />
-              </div>
-              <div className="flex-1">
-                <h4 className="text-2xl md:text-3xl font-medium mb-3">{position.title}</h4>
-                <p className="text-base leading-relaxed">{position.description}</p>
+            <div className="directors" key={index}>
+              <img src={position.image} alt="director" />
+              <div className="text">
+                <h1>{position.title}</h1>
+                <p>{position.description}</p>
               </div>
             </div>
           ))}
         </div>
-
-        {/* Bottom Gallery */}
-        <div className="mt-24 max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-            <img 
-              src={collage1} 
-              alt="Team group photo" 
-              loading="lazy" 
-              decoding="async" 
-              sizes="(min-width: 768px) 33vw, 50vw" 
-              className="w-full h-64 md:h-80 object-cover rounded-[15px]" 
-            />
-            <img 
-              src={collage2} 
-              alt="Fashion show performance" 
-              loading="lazy" 
-              decoding="async" 
-              sizes="(min-width: 768px) 33vw, 50vw" 
-              className="w-full h-64 md:h-80 object-cover rounded-[15px]" 
-            />
-            <img 
-              src={collage3} 
-              alt="Fashion for Change team event" 
-              loading="lazy" 
-              decoding="async" 
-              sizes="(min-width: 768px) 33vw, 50vw" 
-              className="w-full h-64 md:h-80 object-cover rounded-[15px]" 
-            />
-          </div>
-          <div className="grid grid-cols-2 gap-6 mt-6 max-w-4xl mx-auto">
-            <img 
-              src={collage4} 
-              alt="Team collaboration" 
-              loading="lazy" 
-              decoding="async" 
-              sizes="(min-width: 768px) 50vw, 50vw" 
-              className="w-full h-64 md:h-80 object-cover rounded-[15px]" 
-            />
-            <img 
-              src={collage5} 
-              alt="Dance workshop preparation" 
-              loading="lazy" 
-              decoding="async" 
-              sizes="(min-width: 768px) 50vw, 50vw" 
-              className="w-full h-64 md:h-80 object-cover rounded-[15px]" 
-            />
-          </div>
-        </div>
       </div>
 
+      <div className="collage">
+        {collageImages.map((img, index) => (
+          <img key={index} src={img} alt="team collage" />
+        ))}
+      </div>
+      
       <Footer />
     </div>
   );
