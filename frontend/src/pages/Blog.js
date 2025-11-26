@@ -5,17 +5,27 @@ import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 
 const Blog = () => {
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#000000', color: '#ffffff' }}>
+    <div style={{ minHeight: '100vh', backgroundColor: '#000000', color: '#ffffff' }}>
       <Navbar />
 
-      <main className="max-w-7xl mx-auto px-4 md:px-12 py-12 md:py-20">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium mb-12 md:mb-20">
+      <main style={{ maxWidth: '1280px', margin: '0 auto', padding: '80px 48px' }}>
+        <h1 style={{ 
+          fontSize: '96px', 
+          fontWeight: '500', 
+          marginBottom: '80px',
+          letterSpacing: '-0.02em',
+          color: '#ffffff'
+        }}>
           the blog
         </h1>
 
-        {/* Blog Card - Clickable */}
-        <Link to="/blog/fundrive" className="block group">
-          <article className="grid gap-8 lg:gap-12 items-center" style={{ gridTemplateColumns: "400px 1fr" }}>
+        <Link to="/blog/fundrive" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <article style={{ 
+            display: 'grid', 
+            gridTemplateColumns: '400px 1fr', 
+            gap: '48px', 
+            alignItems: 'center' 
+          }}>
             {/* Featured Image */}
             <img 
               src={blogHeaderPhoto}
@@ -25,22 +35,38 @@ const Blog = () => {
                 height: '300px', 
                 objectFit: 'cover',
                 borderRadius: '20px',
-                flexShrink: 0
+                flexShrink: 0,
+                display: 'block'
               }}
-              className="group-hover:opacity-90 transition-opacity"
             />
 
             {/* Content */}
-            <div className="flex flex-col justify-center space-y-4 md:space-y-6">
-              <time className="text-sm md:text-base" style={{ color: '#a0a0a0' }}>
+            <div style={{ 
+              display: 'flex', 
+              flexDirection: 'column', 
+              justifyContent: 'center', 
+              gap: '24px' 
+            }}>
+              <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
                 November 14, 2025
               </time>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium leading-tight group-hover:opacity-70 transition-opacity">
+              <h2 style={{ 
+                fontSize: '48px', 
+                fontWeight: '500', 
+                lineHeight: '1.2',
+                margin: '0',
+                color: '#ffffff'
+              }}>
                 Join Our First Annual FUNdrive!
               </h2>
 
-              <p className="text-base md:text-lg lg:text-xl leading-relaxed">
+              <p style={{ 
+                fontSize: '20px', 
+                lineHeight: '1.6',
+                color: '#e0e0e0',
+                margin: '0'
+              }}>
                 This November through December 7th, help us reach our $500 goal by donating clothing, textiles, and household goods.
               </p>
             </div>
