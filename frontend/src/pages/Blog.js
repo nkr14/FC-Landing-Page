@@ -15,16 +15,20 @@ const Blog = () => {
 
         {/* Blog Card - Clickable */}
         <Link to="/blog/fundrive" className="block group">
-          <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center hover:opacity-90 transition-opacity">
+          <article className="grid gap-8 lg:gap-12 items-center" style={{ gridTemplateColumns: "400px 1fr" }}>
             {/* Featured Image */}
-            <div className="rounded-3xl overflow-hidden">
-              <img 
-                src={blogHeaderPhoto}
-                alt="FUNdrive Campaign featuring sustainable fashion models" 
-                className="w-full h-full object-cover"
-                style={{ aspectRatio: '4/3' }}
-              />
-            </div>
+            <img 
+              src={blogHeaderPhoto}
+              alt="FUNdrive Campaign featuring sustainable fashion models" 
+              style={{ 
+                width: '400px', 
+                height: '300px', 
+                objectFit: 'cover',
+                borderRadius: '20px',
+                flexShrink: 0
+              }}
+              className="group-hover:opacity-90 transition-opacity"
+            />
 
             {/* Content */}
             <div className="flex flex-col justify-center space-y-4 md:space-y-6">
