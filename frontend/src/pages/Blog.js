@@ -7,42 +7,56 @@ const Blog = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navbar />
-      
+
       <main className="max-w-7xl mx-auto px-4 md:px-12 py-12 md:py-20">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-light mb-12 md:mb-20">
           the blog
         </h1>
 
-        {/* Blog Card - Clickable */}
         <Link to="/blog/fundrive" className="block group">
-          <article className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
-            
-            {/* ✅ IMAGE — MAX 500px, RESPONSIVE, 20px RADIUS */}
-            <div className="flex justify-start">
-              <div className="rounded-[20px] overflow-hidden max-w-[500px] w-full">
-                <img 
-                  src={blogHeaderPhoto}
-                  alt="FUNdrive Campaign featuring sustainable fashion models"
-                  className="w-full h-auto object-cover group-hover:opacity-90 transition-opacity rounded-[20px]"
-                  style={{ display: "block" }}
-                />
-              </div>
+          {/*  Card Image (350px) + Text */}
+          <article
+            className="grid gap-10 items-center"
+            style={{
+              gridTemplateColumns: "minmax(0, 350px) 1fr"
+            }}
+          >
+            {/* Image */}
+            <div
+              style={{
+                maxWidth: "350px",
+                width: "100%",
+                borderRadius: "20px",
+                overflow: "hidden"
+              }}
+            >
+              <img
+                src={blogHeaderPhoto}
+                alt="FUNdrive Campaign featuring sustainable fashion models"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  borderRadius: "20px",
+                  maxWidth: "350px"
+                }}
+                className="group-hover:opacity-90 transition-opacity"
+              />
             </div>
 
             <div className="flex flex-col justify-center space-y-4 md:space-y-6 max-w-xl">
               <time className="text-gray-400 text-sm md:text-base">
                 November 14, 2025
               </time>
-              
+
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium leading-tight group-hover:text-gray-300 transition-colors">
                 Join Our First Annual FUNdrive!
               </h2>
-              
+
               <p className="text-base md:text-lg leading-relaxed text-gray-300">
                 This November through December 7th, help us reach our $500 goal by donating clothing, textiles, and household goods.
               </p>
             </div>
-
           </article>
         </Link>
       </main>
