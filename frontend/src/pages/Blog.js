@@ -13,34 +13,23 @@ const Blog = () => {
           the blog
         </h1>
 
+        {/* Blog Card - Clickable */}
         <Link to="/blog/fundrive" className="block group">
-          <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <article className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
             
-            {/* HARD MAX-SIZE IMAGE LOCK */}
+            {/* ✅ IMAGE — MAX 500px, RESPONSIVE, 20px RADIUS */}
             <div className="flex justify-start">
-              <div
-                className="rounded-[20px] overflow-hidden"
-                style={{
-                  maxWidth: "906px",
-                  width: "100%"
-                }}
-              >
+              <div className="rounded-[20px] overflow-hidden max-w-[500px] w-full">
                 <img 
                   src={blogHeaderPhoto}
                   alt="FUNdrive Campaign featuring sustainable fashion models"
-                  style={{
-                    width: "100%",
-                    maxWidth: "906px",
-                    height: "auto",
-                    display: "block"
-                  }}
-                  className="group-hover:opacity-90 transition-opacity"
+                  className="w-full h-auto object-cover group-hover:opacity-90 transition-opacity rounded-[20px]"
+                  style={{ display: "block" }}
                 />
               </div>
             </div>
 
-            {/* Content */}
-            <div className="flex flex-col justify-center space-y-4 md:space-y-6">
+            <div className="flex flex-col justify-center space-y-4 md:space-y-6 max-w-xl">
               <time className="text-gray-400 text-sm md:text-base">
                 November 14, 2025
               </time>
