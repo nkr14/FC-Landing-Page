@@ -16,12 +16,13 @@ const Blog = () => {
         {/* Blog Card - Clickable */}
         <Link to="/blog/fundrive" className="block group">
           <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            {/* Featured Image */}
-            <div className="rounded-[20px] overflow-hidden" style={{ maxWidth: '500px' }}>
+            
+            {/* Featured Image - Responsive Max Size (906 x 584) */}
+            <div className="rounded-[20px] overflow-hidden max-w-[906px] w-full">
               <img 
                 src={blogHeaderPhoto}
                 alt="FUNdrive Campaign featuring sustainable fashion models" 
-                className="w-full h-[350px] object-cover group-hover:opacity-90 transition-opacity"
+                className="w-full h-auto object-cover group-hover:opacity-90 transition-opacity"
               />
             </div>
 
@@ -39,6 +40,7 @@ const Blog = () => {
                 This November through December 7th, help us reach our $500 goal by donating clothing, textiles, and household goods.
               </p>
             </div>
+
           </article>
         </Link>
       </main>
