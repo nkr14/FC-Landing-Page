@@ -24,9 +24,9 @@ const FundriveBlog = () => {
         {/* Hero Section */}
         <article style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>>
-            <time style={{ color: '#a0a0a0', fontSize: '18px', display: 'block', textAlign: 'left' }}>
+            <div style={{ color: '#a0a0a0', fontSize: '18px', display: 'block', textAlign: 'left' }}>
               November 14, 2025
-            </time>
+            </div>
             
             <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '32px' }}>
               <h1 style={{ fontSize: '60px', fontWeight: '500', lineHeight: '1.2', flex: '1', margin: '0', color: '#ffffff', textAlign: 'left' }}>
@@ -71,7 +71,7 @@ const FundriveBlog = () => {
           </div>
 
           {/* Image Gallery */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '32px', padding: '32px 0', maxWidth: '1184px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '48px', padding: '32px 0' }}>
             <div style={{ borderRadius: '20px', overflow: 'hidden' }}>
               <img 
                 src={blog1stPhoto}
