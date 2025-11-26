@@ -99,9 +99,9 @@ const BoardOfDirectors = () => {
       <Navbar />
       
       {/* Board of Directors Header */}
-      <div className="team-header">
-        <img src={bodHeader1} alt="board of directors" />
-        <img src={bodHeader2} alt="board of directors" />
+      <div className="team-header" style={{ height: '700px' }}>
+        <img src={bodHeader1} alt="board of directors" style={{ height: '700px', objectFit: 'cover' }} />
+        <img src={bodHeader2} alt="board of directors" style={{ height: '700px', objectFit: 'cover' }} />
         <div className="header-overlay">
           <h1>bod</h1>
         </div>
@@ -115,7 +115,17 @@ const BoardOfDirectors = () => {
         <div className="directors-box">
           {positions.map((position, index) => (
             <div className="directors" key={index}>
-              <img src={position.image} alt="director" />
+              <img 
+                src={position.image} 
+                alt="director" 
+                style={{ 
+                  width: '200px', 
+                  height: '280px', 
+                  objectFit: 'cover',
+                  borderRadius: '20px',
+                  flexShrink: 0
+                }} 
+              />
               <div className="text">
                 <h1>{position.title}</h1>
                 <p>{position.description}</p>
