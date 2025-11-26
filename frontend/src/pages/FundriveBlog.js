@@ -38,11 +38,11 @@ const FundriveBlog = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="w-full rounded-[20px] overflow-hidden my-8">
+          <div className="rounded-[20px] overflow-hidden my-8" style={{ maxWidth: '800px' }}>
             <img 
               src={blogHeaderPhoto}
               alt="FUNdrive Campaign" 
-              className="w-full h-[400px] md:h-[500px] object-cover"
+              className="w-full h-[350px] md:h-[400px] object-cover"
             />
           </div>
 
