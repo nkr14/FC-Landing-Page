@@ -99,7 +99,7 @@ const BoardOfDirectors = () => {
       
       {/* Board of Directors Header */}
       <div className="team-header" style={{ height: '700px', width: '100%', overflow: 'hidden', position: 'relative' }}>
-        <img src={bodHeader1} alt="board of directors" style={{ width: '100%', height: '700px', objectFit: 'cover', display: 'block' }} />
+        <img src={bodHeader1} alt="board of directors" style={{ width: '100%', height: '700px', objectFit: 'cover', objectPosition: 'center 30%', display: 'block' }} />
         <div className="header-overlay">
           <h1>bod</h1>
         </div>
