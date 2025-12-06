@@ -3,7 +3,6 @@ import Footer from "../../components/Footer.js";
 
 // GitHub repo image paths
 import bodHeader1 from "../../images/BOD/bod-header-1.png";
-import bodHeader2 from "../../images/BOD/bod-header-2.png";
 import president from "../../images/BOD/president.jpeg";
 import vicePresident from "../../images/BOD/vice-president.png";
 import artistic from "../../images/BOD/artistic.jpeg";
@@ -99,9 +98,8 @@ const BoardOfDirectors = () => {
       <Navbar />
       
       {/* Board of Directors Header */}
-      <div className="team-header" style={{ height: '700px' }}>
-        <img src={bodHeader1} alt="board of directors" style={{ height: '700px', objectFit: 'cover' }} />
-        <img src={bodHeader2} alt="board of directors" style={{ height: '700px', objectFit: 'cover' }} />
+      <div className="team-header" style={{ height: '700px', width: '100%', overflow: 'hidden', position: 'relative' }}>
+        <img src={bodHeader1} alt="board of directors" style={{ width: '100%', height: '700px', objectFit: 'cover', display: 'block' }} />
         <div className="header-overlay">
           <h1>bod</h1>
         </div>
