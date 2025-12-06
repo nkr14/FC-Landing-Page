@@ -42,7 +42,7 @@ const FundriveBlog = () => {
               />
             </div>
             
-            <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '1100px', margin: '0', textAlign: 'left' }}>
+            <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '1200px', margin: '0', textAlign: 'left' }}>
               This November through December 7th, help us reach our $500 goal by donating clothing, textiles, and household goods.
             </p>
           </div>
