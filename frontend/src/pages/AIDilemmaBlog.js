@@ -24,7 +24,7 @@ const AIDilemmaBlog = () => {
         <article style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>
             <div style={{ color: '#a0a0a0', fontSize: '18px', display: 'block', textAlign: 'left' }}>
-              December 05, 2025
+              December 06, 2025
             </div>
             
             <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '32px' }}>
@@ -33,7 +33,7 @@ const AIDilemmaBlog = () => {
               </h1>
             </div>
             
-            <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '1100px', margin: '0', textAlign: 'left' }}>
+            <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '1200px', margin: '0', textAlign: 'left' }}>
               As generative AI rises in popularity, fashion faces a critical question: Can we have efficiency without sacrificing creativity and human connection?
             </p>
           </div>
