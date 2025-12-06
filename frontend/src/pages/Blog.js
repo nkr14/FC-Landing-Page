@@ -72,7 +72,7 @@ const Blog = () => {
                   color: '#e0e0e0',
                   margin: '0'
                 }}>
-                  As generative AI rises in popularity, fashion faces a critical question: can we harness efficiency without sacrificing creativity and human connection?
+                  As generative AI rises in popularity, fashion faces a critical question: can <br /> we harness efficiency without sacrificing creativity and human connection?
                 </p>
               </div>
             </article>
@@ -127,7 +127,7 @@ const Blog = () => {
                   color: '#e0e0e0',
                   margin: '0'
                 }}>
-                  This November through December 7th, help us reach our $500 goal by donating clothing, textiles, and household goods.
+                  This November through December 7th, help us reach our $500 <br /> goal by donating clothing, textiles, and household goods.
                 </p>
               </div>
             </article>
