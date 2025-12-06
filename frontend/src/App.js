@@ -41,6 +41,7 @@ import Magazine from './pages/Magazine.js'
 // Blog pages
 import Blog from './pages/Blog.js'
 import FundriveBlog from './pages/FundriveBlog.js'
+import AIDilemmaBlog from './pages/AIDilemmaBlog.js'
 
 function App() {
   return (
@@ -180,6 +181,10 @@ function App() {
             <Route
               path="/blog/fundrive"
               element={<FundriveBlog />}
+            />
+             <Route
+              path="/blog/ai-dilemma"
+              element={<AIDilemmaBlog />}
             />
           </Routes>
         </BrowserRouter>
