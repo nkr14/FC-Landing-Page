@@ -33,7 +33,7 @@ const AIDilemmaBlog = () => {
               </h1>
             </div>
             
-            <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '900px', margin: '0', textAlign: 'left' }}>
+            <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '1200px', margin: '0', textAlign: 'left' }}>
               As generative AI rises in popularity, fashion faces a critical question: Can we have efficiency without sacrificing creativity and human connection?
             </p>
           </div>
@@ -50,7 +50,7 @@ const AIDilemmaBlog = () => {
             width: '100%'
           }}>
             <p style={{ fontSize: '20px', lineHeight: '1.7', margin: '0', color: '#e0e0e0' }}>
-              AS GENERATIVE ARTIFICIAL INTELLIGENCE RISES IN POPULARITY, MANY INDUSTRIES ARE BEING FORCED TO REEVALUATE THEIR LONG-TERM STRATEGIES. FASHION IS AMONG THEM, FACING FEARS AROUND THREATS TO CREATIVITY, JOB SECURITY, AND INNOVATION. HOWEVER, THE POTENTIAL INCREASES IN EFFICIENCY AND DATA ANALYSIS ARE NOT TO BE DISCOUNTED. FASHION EXECUTIVES AND DESIGNERS ARE TORN BETWEEN EMBRACING THESE TOOLS WHILE CAUTIOUSLY PRESERVING THE HUMAN ELEMENT THAT HAS ALWAYS BEEN THE HEART OF THE INDUSTRY.
+              AS GENERATIVE ARTIFICIAL INTELLIGENCE RISES IN POPULARITY, MANY INDUSTRIES ARE BEING FORCED TO REEVALUATE THEIR LONG-TERM STRATEGIES. FASHION IS AMONG THEM, FACING FEARS AROUND THREATS TO CREATIVITY, JOB SECURITY, AND INNOVATION. HOWEVER, THE POTENTIAL INCREASES IN EFFICIENCY AND DATA ANALYSIS ARE NOT TO BE DISCOUNTED. FASHION EXECUTIVES AND DESIGNERS ARE TORN BETWEEN EMBRACING THESE TOOLS WHILE CAUTIOUSLY PRESERVING THE HUMAN ELEMENT THAT HAS ALWAYS BEEN <br /> THE HEART OF THE INDUSTRY.
             </p>
 
             <h2 style={{ fontSize: '32px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff' }}>
