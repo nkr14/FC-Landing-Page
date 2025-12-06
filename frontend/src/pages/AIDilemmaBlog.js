@@ -173,7 +173,7 @@ const AIDilemmaBlog = () => {
                   color: '#e0e0e0',
                   margin: '0'
                 }}>
-                  This November through December 7th, help us reach our $500 goal by donating clothing, textiles, and household goods.
+                  This November through December 7th, help us reach our $500 goal by <br /> donating clothing, textiles, and household goods.
                 </p>
               </div>
             </article>
