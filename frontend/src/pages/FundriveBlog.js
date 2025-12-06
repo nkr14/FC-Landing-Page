@@ -159,7 +159,7 @@ const FundriveBlog = () => {
                   color: '#e0e0e0',
                   margin: '0'
                 }}>
-                  As generative AI rises in popularity, fashion faces a critical question: can we harness efficiency without sacrificing creativity and human connection?
+                  As generative AI rises in popularity, fashion faces a critical question: can we <br /> harness efficiency without sacrificing creativity and human connection?
                 </p>
               </div>
             </article>
