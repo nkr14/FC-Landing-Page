@@ -33,13 +33,22 @@ const AIDilemmaBlog = () => {
               </h1>
             </div>
             
-            <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '1200px', margin: '0', textAlign: 'left' }}>
+            <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '900px', margin: '0', textAlign: 'left' }}>
               As generative AI rises in popularity, fashion faces a critical question: Can we have efficiency without sacrificing creativity and human connection?
             </p>
           </div>
 
-          {/* Main Content */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '32px', padding: '24px 0', textAlign: 'left' }}>
+          {/* Main Content - Centered with reduced width */}
+          <div style={{ 
+            display: 'flex', 
+            flexDirection: 'column', 
+            gap: '32px', 
+            padding: '24px 0', 
+            textAlign: 'left',
+            maxWidth: '900px',
+            margin: '0 auto',
+            width: '100%'
+          }}>
             <p style={{ fontSize: '18px', lineHeight: '1.6', margin: '0', color: '#e0e0e0' }}>
               AS GENERATIVE ARTIFICIAL INTELLIGENCE RISES IN POPULARITY, MANY INDUSTRIES ARE BEING FORCED TO REEVALUATE THEIR LONG-TERM STRATEGIES. FASHION IS AMONG THEM, FACING FEARS AROUND THREATS TO CREATIVITY, JOB SECURITY, AND INNOVATION. HOWEVER, THE POTENTIAL INCREASES IN EFFICIENCY AND DATA ANALYSIS ARE NOT TO BE DISCOUNTED. FASHION EXECUTIVES AND DESIGNERS ARE TORN BETWEEN EMBRACING THESE TOOLS WHILE CAUTIOUSLY PRESERVING THE HUMAN ELEMENT THAT HAS ALWAYS BEEN THE HEART OF THE INDUSTRY.
             </p>
@@ -63,25 +72,36 @@ const AIDilemmaBlog = () => {
             <p style={{ fontSize: '18px', lineHeight: '1.6', margin: '0', color: '#e0e0e0' }}>
               While this may aid creativity in some cases, allowing designers to generate and test more ideas in a short period of time, overreliance on AI threatens to push the creative process to a level of inoffensiveness and efficiency beyond the uniqueness of a foundation of diverse, individualized thought and ideas influenced by individual experience. When AI overrides human intuition, critical thinking and creativity become vulnerable. The reliance on AI to speed up the process of trial and error that designers have traditionally worked through has the potential to diminish human autonomy and allow them to replace individual thought.
             </p>
+          </div>
 
-            {/* Image Gallery */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '48px', padding: '32px 0' }}>
-              <div style={{ borderRadius: '20px', overflow: 'hidden' }}>
-                <img 
-                  src={aiDilemmaPhoto1}
-                  alt="Fashion model in black and white" 
-                  style={{ width: '100%', height: '500px', objectFit: 'cover', display: 'block' }}
-                />
-              </div>
-              <div style={{ borderRadius: '20px', overflow: 'hidden' }}>
-                <img 
-                  src={aiDilemmaPhoto2}
-                  alt="Fashion model in white outfit" 
-                  style={{ width: '100%', height: '500px', objectFit: 'cover', display: 'block' }}
-                />
-              </div>
+          {/* Image Gallery - Full width within main container */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '48px', padding: '32px 0', maxWidth: '1184px', margin: '0 auto', width: '100%' }}>
+            <div style={{ borderRadius: '20px', overflow: 'hidden' }}>
+              <img 
+                src={aiDilemmaPhoto1}
+                alt="Fashion model in black and white" 
+                style={{ width: '100%', height: '500px', objectFit: 'cover', display: 'block' }}
+              />
             </div>
+            <div style={{ borderRadius: '20px', overflow: 'hidden' }}>
+              <img 
+                src={aiDilemmaPhoto2}
+                alt="Fashion model in white outfit" 
+                style={{ width: '100%', height: '500px', objectFit: 'cover', display: 'block' }}
+              />
+            </div>
+          </div>
 
+          {/* Continued Content - Centered with reduced width */}
+          <div style={{ 
+            display: 'flex', 
+            flexDirection: 'column', 
+            gap: '32px', 
+            textAlign: 'left',
+            maxWidth: '900px',
+            margin: '0 auto',
+            width: '100%'
+          }}>
             <h2 style={{ fontSize: '28px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff' }}>
               MODELING AND AI
             </h2>
@@ -173,7 +193,7 @@ const AIDilemmaBlog = () => {
                   color: '#e0e0e0',
                   margin: '0'
                 }}>
-                  This November through December 7th, help us reach our $500 goal by <br /> donating clothing, textiles, and household goods.
+                  This November through December 7th, help us reach our $500 goal by donating clothing, textiles, and household goods.
                 </p>
               </div>
             </article>
