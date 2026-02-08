@@ -13,7 +13,7 @@ const About = () => {
   const imagesArray = useContext(ImagesContext)
 
   const BODH = imagesArray.find(
-    (url) => url.includes(`Teams/BOD`) && url.includes(`Header.png`)
+    (url) => url.includes(`Teams/BOD`) && url.includes(`bod-header1.png`)
   )
 
   const ARTH = imagesArray.find(
@@ -48,7 +48,7 @@ const About = () => {
         <div className="show-header">
           <img src={headerImage} alt="about us" className="header-image" />
           <div className="header-overlay">
-            <h1>about us</h1>
+            <h1>ABOUT US</h1>
           </div>
         </div>
         
@@ -93,7 +93,7 @@ const About = () => {
         </div>
       </div>
 
-      <h2>our teams</h2>
+      <h2>OUR TEAMS</h2>
       <div className="carousel-wrapper">
         <div className="carousel-scroll">
           <Link to="/teams/bod" className="team-card">
