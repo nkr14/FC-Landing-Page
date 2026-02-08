@@ -33,7 +33,7 @@ const Artistic = () => {
       <div className="team-header">
         <img src={header} alt="artistic"/>
         <div className="header-overlay">
-          <h1>artistic</h1>
+          <h1>ARTISTIC</h1>
         </div>
       </div>
 
