@@ -89,25 +89,25 @@ const Home = () => {
             <div className="home-collage">
             <div className="image">
                 <img className="small" src={AboutUs} alt="About Us header"></img>
-                <h1>about us</h1>
+                <h1>ABOUT US</h1>
             </div>
             <div className="image">
                 <img className="small" src={Events} alt="Events header"></img>
-                <h1>events</h1>
+                <h1>EVENTS</h1>
             </div>
             </div>
 
             <div className="image">
             <img className="big" src={Sponsorships} alt="Sponsorships header"></img>
-            <h1>sponsorships</h1>
+            <h1>SPONSORSHIPS</h1>
             </div>
 
             <div className="image">
             <img className="big" src={Charities} alt="Charities header"></img>
-            <h1>charities</h1>
+            <h1>CHARITIES</h1>
             </div>
 
-            <h1 className="section-title">teams</h1>
+            <h1 className="section-title">TEAMS</h1>
             <div className="carousel">
             <a href="/teams/bod" className="carousel-tile">
                 <img src={bod} alt="BOD Team" />
@@ -147,7 +147,7 @@ const Home = () => {
             </a>
             </div>
 
-            <h1 className="section-title">past shows</h1>
+            <h1 className="section-title">PAST SHOWS</h1>
             <div className="carousel">
             <a href="past-shows/arcana" className="carousel-tile">
                 <img src={arcana} alt="Arcana Show" />
