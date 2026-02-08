@@ -13,7 +13,7 @@ const About = () => {
   const imagesArray = useContext(ImagesContext)
 
   const BODH = imagesArray.find(
-    (url) => url.includes(`Teams/BOD`) && url.includes(`bod-header1.png`)
+    (url) => url.includes(`Teams/BOD`) && url.includes(`bod-header-1.png`)
   )
 
   const ARTH = imagesArray.find(
