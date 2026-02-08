@@ -14,7 +14,7 @@ const Home = () => {
     const imagesArray = useContext(ImagesContext)
 
     const bod = imagesArray.find(
-    (url) => url.includes("Teams/BOD") && url.includes(`Header.png`)
+    (url) => url.includes("Teams/BOD") && url.includes(`bod-header-1.png`)
     )
     const artistic = imagesArray.find(
     (url) => url.includes("Teams/Artistic") && url.includes(`Header.png`)
@@ -110,7 +110,7 @@ const Home = () => {
             <h1 className="section-title">TEAMS</h1>
             <div className="carousel">
             <a href="/teams/bod" className="carousel-tile">
-                <img src={bodHeader1} alt="BOD Team" />
+                <img src={bod} alt="BOD Team" />
                 <span>bod</span>
             </a>
             <a href="/teams/artistic" className="carousel-tile">
