@@ -52,7 +52,7 @@ const Model = () => {
 
       <div className="box">
         <div className="inner-1">
-          <h1>Models</h1>
+          <h1>MODEL</h1>
           <ul>
             <li>Participate in rehearsals, fittings, photoshoots, and scene performances.</li>
           </ul>
