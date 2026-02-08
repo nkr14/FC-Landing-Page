@@ -34,7 +34,7 @@ const Finance = () => {
       <div className="team-header">
         <img src={header} alt="finance team"></img>
         <div className="header-overlay">
-          <h1>finance</h1>
+          <h1>FINANCE</h1>
         </div>
       </div>
 
