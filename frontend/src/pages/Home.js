@@ -110,7 +110,7 @@ const Home = () => {
             <h1 className="section-title">TEAMS</h1>
             <div className="carousel">
             <a href="/teams/bod" className="carousel-tile">
-                <img src={bod-header-1.png} alt="BOD Team" />
+                <img src={bodHeader1} alt="BOD Team" />
                 <span>bod</span>
             </a>
             <a href="/teams/artistic" className="carousel-tile">
