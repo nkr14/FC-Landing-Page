@@ -34,7 +34,7 @@ const Stage = () => {
       <div className="team-header">
         <img src={header} alt="stage"/>
         <div className="header-overlay">
-          <h1>stage</h1>
+          <h1>STAGE</h1>
         </div>
       </div>
 
