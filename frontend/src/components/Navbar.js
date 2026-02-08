@@ -10,53 +10,53 @@ export default function Navbar() {
             </a>
 
             <div className="pages">
-                <a href='/about-us'>about us</a>
-                <a href='/magazine'>magazine</a>
+                <a href='/about-us'>ABOUT US</a>
+                <a href='/magazine'>MAGAZINE</a>
                 <div className="dropdown">
-                    <a href='/teams/bod'>teams</a>
+                    <a href='/teams/bod'>TEAMS</a>
 
                     <div className="dropdown-content">
-                        <a href="/teams/bod">Board of Directors</a>
-                        <a href="/teams/artistic">Artistic</a>
-                        <a href="/teams/events">Events</a>
-                        <a href="/teams/stage">Stage</a>
-                        <a href="/teams/marketing">Marketing</a>
-                        <a href="/teams/finance">Finance</a>
-                        <a href="/teams/pr">Public Relations</a>
-                        <a href="/teams/model">Model</a>
-                        <a href="/teams/sponsorship">Sponsorship</a>
+                        <a href="/teams/bod">BOARD OF DIRECTORS</a>
+                        <a href="/teams/artistic">ARTISTIC</a>
+                        <a href="/teams/events">EVENTS</a>
+                        <a href="/teams/stage">STAGE</a>
+                        <a href="/teams/marketing">MARKETING</a>
+                        <a href="/teams/finance">FINANCE</a>
+                        <a href="/teams/pr">PUBLIC RELATIONS</a>
+                        <a href="/teams/model">MODEL</a>
+                        <a href="/teams/sponsorship">SPONSORSHIP</a>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <a href='/events'>get involved</a>
+                    <a href='/events'>GET INVOLVED</a>
 
                     <div className="dropdown-content">
-                        <a href='/events'>events</a>
-                        <a href='/sponsorship'>sponsorship</a>
-                        <a href='/stand-for'>charities</a>
-                        <a href='/blog'>blog</a>
+                        <a href='/events'>EVENTS</a>
+                        <a href='/sponsorship'>SPONSORSHIP</a>
+                        <a href='/stand-for'>CHARITIES</a>
+                        <a href='/blog'>BLOG</a>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <a href='/past-shows/arcana'>shows</a>
+                    <a href='/past-shows/arcana'>SHOWS</a>
 
                     <div className="dropdown-content">
-                        <a href="/past-shows/arcana">Arcana</a>
-                        <a href="/past-shows/spun-from-gold">Spun From Gold</a>
-                        <a href="/past-shows/soul">Soul</a>
-                        <a href="/past-shows/academy-awards">The Academy Awards</a>
-                        <a href="/past-shows/tuesday">Tuesday</a>
-                        <a href="/past-shows/pandoras">Pandoras Box</a>
-                        <a href="/past-shows/ttd">Through the Decades</a>
-                        <a href="/past-shows/sytygs">So You Think You Got Style</a>
+                        <a href="/past-shows/arcana">ARCANA</a>
+                        <a href="/past-shows/spun-from-gold">SPUN FROM GOLD</a>
+                        <a href="/past-shows/soul">SOULD</a>
+                        <a href="/past-shows/academy-awards">THE ACADEMY AWARDS</a>
+                        <a href="/past-shows/tuesday">TUESDAY</a>
+                        <a href="/past-shows/pandoras">PANDORAS BOX</a>
+                        <a href="/past-shows/ttd">THROUGH THE DECADES</a>
+                        <a href="/past-shows/sytygs">SO YOU THINK YOU GOT STYLE</a>
                         <a href="/past-shows/fcmas">FCMAS</a>
-                        <a href="/past-shows/enchanted">Enchanted</a>
-                        <a href="/past-shows/cover-to-cover">Cover To Cover</a>
-                        <a href="/past-shows/directors-cut">Directors Cut</a>
-                        <a href="/past-shows/ffc">Fashion For Change</a>
+                        <a href="/past-shows/enchanted">ENCHANTED</a>
+                        <a href="/past-shows/cover-to-cover">COVER TO COVER</a>
+                        <a href="/past-shows/directors-cut">DIRECTORS CUT</a>
+                        <a href="/past-shows/ffc">FASHION FOR CHANGE</a>
                     </div>
                 </div>
-                <a href="/contact-us">contact us</a>
+                <a href="/contact-us">CONTACT US</a>
 
             </div>
         </div>
