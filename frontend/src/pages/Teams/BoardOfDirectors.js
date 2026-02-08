@@ -83,7 +83,7 @@ const BoardOfDirectors = () => {
       title: "Marketing",
       image: marketing,
       description: "The Marketing Director oversees the development of visual and promotional content by managing a team of photographers/videographers, graphic designers and writers. They coordinate creative efforts to build a consistent and engaging brand image across all club activities."
-    }
+    },
      {
       title: "Marketing",
       image: vicePresident,
