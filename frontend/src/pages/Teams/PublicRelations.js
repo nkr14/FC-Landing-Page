@@ -34,7 +34,7 @@ const PublicRelations = () => {
       <div className="team-header">
         <img src={header} alt="public relations"/>
         <div className="header-overlay">
-          <h1>public relations</h1>
+          <h1>PUBLIC RELATIONS</h1>
         </div>
       </div>
 
