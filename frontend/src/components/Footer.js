@@ -32,7 +32,7 @@ const Footer = () => (
     <div className="footer-logo">
       <h1>fashion<span>for</span><br />change</h1>
     </div>
-    <div className="footer-bottom-text">©Fashion for Change 2024</div>
+    <div className="footer-bottom-text">©Fashion for Change 2026</div>
   </footer>
 );
 
