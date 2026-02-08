@@ -34,7 +34,7 @@ const Sponsorship = () => {
       <div className="team-header">
         <img src={header} alt="sponsorship"/>
         <div className="header-overlay">
-          <h1>sponsorship</h1>
+          <h1>SPONSORSHIP</h1>
         </div>
       </div>
 
