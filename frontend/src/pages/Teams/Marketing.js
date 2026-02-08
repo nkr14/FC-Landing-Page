@@ -35,7 +35,7 @@ return(
         <div className="team-header">
             <img src={header} alt="events" className="header-image" />
             <div className="header-overlay">
-            <h1>marketing</h1>
+            <h1>MARKETING</h1>
             </div>
         </div>
 
