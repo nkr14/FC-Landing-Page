@@ -36,7 +36,7 @@ const Events = () => {
       <div className="team-header">
         <img src={header} alt="events" className="header-image" />
         <div className="header-overlay">
-          <h1>events</h1>
+          <h1>EVENTS</h1>
         </div>
       </div>
 
