@@ -30,11 +30,6 @@ const BoardOfDirectors = () => {
       description: "The President is responsible for leading the club, setting its direction, and overseeing the work of all teams. They make final decisions, coordinate major initiatives, and ensure the club stays on track throughout the year."
     },
     {
-      title: "Vice President",
-      image: vicePresident,
-      description: "The Vice President is responsible for supporting the President and ensuring teams stay organized, meet deadlines, and communicate effectively. They help manage logistics, resolve issues, and keep operations running smoothly."
-    },
-    {
       title: "Artistic",
       image: artistic,
       description: "The Artistic Director is responsible for hiring choreographers and designers, creating the theme and scenes for the final winter showcase, and organizing the dance workshop in the fall. They work closely with other teams to oversee artistic progress and ensure cohesion across all creative elements."
@@ -89,6 +84,11 @@ const BoardOfDirectors = () => {
       image: marketing,
       description: "The Marketing Director oversees the development of visual and promotional content by managing a team of photographers/videographers, graphic designers and writers. They coordinate creative efforts to build a consistent and engaging brand image across all club activities."
     }
+     {
+      title: "Marketing",
+      image: vicePresident,
+      description: "The Marketing Director oversees the development of visual and promotional content by managing a team of photographers/videographers, graphic designers and writers. They coordinate creative efforts to build a consistent and engaging brand image across all club activities."
+    },
   ];
 
   const collageImages = [collage1, collage2, collage3, collage4, collage5];
