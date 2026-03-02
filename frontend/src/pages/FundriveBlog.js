@@ -113,38 +113,35 @@ const FundriveBlog = () => {
           </h2>
           
           <a href="/blog/university-fashion" style={{ textDecoration: 'none', color: 'inherit' }}>
-  <article style={{ 
-    display: 'grid', 
-    gridTemplateColumns: '500px 1fr', 
-    gap: '48px', 
-    alignItems: 'center',
-    transition: 'opacity 0.3s',
-    cursor: 'pointer'
-  }}>
-    <img 
-      src={universityFashionHeader}
-      alt="University Fashion Through the Years" 
-      style={{ 
-        width: '500px', 
-        height: '375px', 
-        objectFit: 'cover',
-        borderRadius: '20px',
-        display: 'block'
-      }}
-    />
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>
-      <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
-        March 02, 2026
-      </time>
-      <h3 style={{ fontSize: '40px', fontWeight: '500', lineHeight: '1.2', margin: '0', color: '#ffffff' }}>
-        University Fashion: How Students Dressed Throughout the Years
-      </h3>
-      <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#e0e0e0', margin: '0' }}>
-        From 90s streetwear to 2000s minimalism — exploring what drives student fashion choices, then and now at the University of Waterloo.
-      </p>
-    </div>
-  </article>
-</a>
+            <article style={{ 
+              display: 'grid', 
+              gridTemplateColumns: '500px 1fr', 
+              gap: '48px', 
+              alignItems: 'center',
+              transition: 'opacity 0.3s',
+              cursor: 'pointer'
+            }}>
+              <img 
+                src={universityFashionHeader}
+                alt="University Fashion Through the Years" 
+                style={{ 
+                  width: '500px', 
+                  height: '375px', 
+                  objectFit: 'cover',
+                  borderRadius: '20px',
+                  display: 'block'
+                }}
+              />
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>
+                <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
+                  March 02, 2026
+                </time>
+                <h3 style={{ fontSize: '40px', fontWeight: '500', lineHeight: '1.2', margin: '0', color: '#ffffff' }}>
+                  University Fashion: How Students Dressed Throughout the Years
+                </h3>
+                <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#e0e0e0', margin: '0' }}>
+                  From 90s streetwear to 2000s minimalism — exploring what drives student fashion choices, then and now at the University of Waterloo.
+                </p>
               </div>
             </article>
           </a>
