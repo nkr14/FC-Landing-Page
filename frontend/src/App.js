@@ -183,12 +183,13 @@ function App() {
               path="/blog/fundrive"
               element={<FundriveBlog />}
             />
-             <Route
+            <Route
               path="/blog/ai-dilemma"
               element={<AIDilemmaBlog />}
-             <Route 
-              path="/blog/university-fashion" 
-              element={<UniversityFashionBlog />} 
+            />
+            <Route
+              path="/blog/university-fashion"
+              element={<UniversityFashionBlog />}
             />
             />
           </Routes>
