@@ -10,7 +10,7 @@ import img4 from '../images/blog/university-fashion/Image_4.jpg';
 
 export default function UniversityFashionBlog() {
   return (
-    <div style={{ backgroundColor: 'black', minHeight: '100vh', paddingTop: '10vh' }}>
+    <div style={{ backgroundColor: 'black', minHeight: '100vh', paddingTop: '10vh', textAlign: 'left',}}>
       <Navbar />
 
       {/* Hero / Title */}
@@ -40,7 +40,7 @@ export default function UniversityFashionBlog() {
           lineHeight: 1.15,
           marginBottom: '1.5rem',
         }}>
-          university fashion: how students dressed throughout the years
+          University Fashion: How Students Dressed Throughout the Years
         </h1>
 
         <div style={{
