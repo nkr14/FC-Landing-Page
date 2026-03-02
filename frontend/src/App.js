@@ -42,6 +42,10 @@ import Magazine from './pages/Magazine.js'
 import Blog from './pages/Blog.js'
 import FundriveBlog from './pages/FundriveBlog.js'
 import AIDilemmaBlog from './pages/AIDilemmaBlog.js'
+import UniversityFashionBlog from './pages/UniversityFashionBlog.js'
+
+// inside <Routes>:
+<Route path="/blog/university-fashion" element={<UniversityFashionBlog />} />
 
 function App() {
   return (
