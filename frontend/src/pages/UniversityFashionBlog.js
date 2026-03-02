@@ -36,7 +36,7 @@ export default function UniversityFashionBlog() {
           fontFamily: 'Futura, sans-serif',
           fontSize: 'clamp(2rem, 5vw, 3.5rem)',
           fontWeight: 'bold',
-          textTransform: 'lowercase',
+          textTransform: 'none',
           lineHeight: 1.15,
           marginBottom: '1.5rem',
         }}>
@@ -68,11 +68,11 @@ export default function UniversityFashionBlog() {
             color: 'white',
             fontFamily: 'Futura, sans-serif',
             fontSize: '1.6rem',
-            textTransform: 'lowercase',
+            textTransform: 'none',
             fontWeight: 'bold',
             margin: '3rem 0 1rem 0',
           }}>
-            the 1990s
+            The 1990s
           </h2>
           <p style={{ marginBottom: '2rem' }}>
             Going back to the 1990s, students were slowly letting go of disco, bright colours, tied-up buttoned shirts, and eccentric patterns on capris. This style of clothing was pushed into the background while streetwear came into the limelight. Students began to feel confident in more comfy clothes, bridging into streetwear — a style still worn today and likely not leaving anytime soon. Clothing like casual jerseys, baggy pants, and monochromatic colours were popular, and both males and females wore clothes that weren't strictly feminine nor masculine. Of course, films of the day influenced a portion of these styles, such as the film "Anywhere but Here" starring Natalie Portman, whose character's laid-back nature was accentuated by her clothing — greatly leaning on baggy pants, caps, and monochromatic colours of the day.
@@ -83,11 +83,11 @@ export default function UniversityFashionBlog() {
             color: 'white',
             fontFamily: 'Futura, sans-serif',
             fontSize: '1.6rem',
-            textTransform: 'lowercase',
+            textTransform: 'none',
             fontWeight: 'bold',
             margin: '3rem 0 1rem 0',
           }}>
-            the 2000s
+            The 2000s
           </h2>
           <p style={{ marginBottom: '2rem' }}>
             Skipping forward ten years, the 2000s brought an incredibly fresh perspective of fashion, highlighting the excitement around a new millennium. Trends that influenced music, attitudes, and films were tracksuits, baguette bags, Uggs, many shades of pink, low risen pants, and animal prints. Male fashion centred around the flannel shirt, slim cut jeans, and of course, the letterman jacket. An excellent film of its day (and a classic for now and forever) that encapsulates early 2000s student fashion is "Mean Girls". The character of Regina George influenced a wide young female audience in their style, ranging from mini skirts and baguette bags to her mother's famous pink tracksuit.
@@ -98,11 +98,11 @@ export default function UniversityFashionBlog() {
             color: 'white',
             fontFamily: 'Futura, sans-serif',
             fontSize: '1.6rem',
-            textTransform: 'lowercase',
+            textTransform: 'none',
             fontWeight: 'bold',
             margin: '3rem 0 1rem 0',
           }}>
-            student fashion at waterloo
+            Student Fashion At Waterloo
           </h2>
           <p style={{ marginBottom: '2.5rem' }}>
             All of these styles lead me to a curiosity about what drives fashion choices in the modern day — specifically at the University of Waterloo. From my personal lens of sitting next to amazingly stylish people in my lectures to seeing modern day influencers online, it is safe to say that conceptualizing 21st century fashion is incredibly difficult. We have become unapologetically unique in our appearances to the point where student fashion exists as its own subcategory, gnawing at the rules of "oh but that shouldn't go together!" University students are gaining confidence in their own eccentric sense of style, transforming the act of dressing into a contemporary art.
@@ -217,11 +217,11 @@ export default function UniversityFashionBlog() {
             color: 'white',
             fontFamily: 'Futura, sans-serif',
             fontSize: '1.6rem',
-            textTransform: 'lowercase',
+            textTransform: 'none',
             fontWeight: 'bold',
             margin: '3rem 0 1rem 0',
           }}>
-            dressing until you feel like you
+            Dressing Until You Feel Like You
           </h2>
           <p style={{ marginBottom: '2rem' }}>
             In conclusion, fashion has forever been a way to express oneself, spread awareness about critical topics, and curate a physical representation of who you are. We are slowly moving away from the extreme influence of films and celebrities to guide our fashion choices, and are taking the reins of our imagination, wearing whatever we want. It is amazing to compare the diverse way students at the University of Waterloo dress, and how we as Fashion for Change wish to continue fostering a safe space for students to take risks in fashion.
