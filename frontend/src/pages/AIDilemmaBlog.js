@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar.js";
 import Footer from "../components/Footer.js";
-import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 import aiDilemmaHeader from "../images/IMG_0339.JPG";
 import aiDilemmaPhoto1 from "../images/IMG_9877.JPG";
 import aiDilemmaPhoto2 from "../images/IMG_9879.JPG";
