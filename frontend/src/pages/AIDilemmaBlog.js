@@ -4,6 +4,7 @@ import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 import aiDilemmaHeader from "../images/IMG_0339.JPG";
 import aiDilemmaPhoto1 from "../images/IMG_9877.JPG";
 import aiDilemmaPhoto2 from "../images/IMG_9879.JPG";
+import universityFashionHeader from "../images/blog/university-fashion/Image_7.jpg";
 
 const AIDilemmaBlog = () => {
   return (
@@ -146,58 +147,39 @@ const AIDilemmaBlog = () => {
             latest blog
           </h2>
           
-          <a href="/blog/fundrive" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <article style={{ 
-              display: 'grid', 
-              gridTemplateColumns: '500px 1fr', 
-              gap: '48px', 
-              alignItems: 'center',
-              transition: 'opacity 0.3s',
-              cursor: 'pointer'
-            }}>
-              <img 
-                src={blogHeaderPhoto}
-                alt="FUNdrive Campaign" 
-                style={{ 
-                  width: '500px', 
-                  height: '375px', 
-                  objectFit: 'cover',
-                  borderRadius: '20px',
-                  display: 'block'
-                }}
-              />
-
-              <div style={{ 
-                display: 'flex', 
-                flexDirection: 'column', 
-                gap: '16px',
-                textAlign: 'left'
-              }}>
-                <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
-                  November 14, 2025
-                </time>
-
-                <h3 style={{ 
-                  fontSize: '40px', 
-                  fontWeight: '500', 
-                  lineHeight: '1.2',
-                  margin: '0',
-                  color: '#ffffff'
-                }}>
-                  Join Our First Annual FUNdrive!
-                </h3>
-
-                <p style={{ 
-                  fontSize: '18px', 
-                  lineHeight: '1.6',
-                  color: '#e0e0e0',
-                  margin: '0'
-                }}>
-                  This November through December 7th, help us reach our $500 goal by <br /> donating clothing, textiles, and household goods.
-                </p>
-              </div>
-            </article>
-          </a>
+          <a href="/blog/university-fashion" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article style={{ 
+    display: 'grid', 
+    gridTemplateColumns: '500px 1fr', 
+    gap: '48px', 
+    alignItems: 'center',
+    transition: 'opacity 0.3s',
+    cursor: 'pointer'
+  }}>
+    <img 
+      src={universityFashionHeader}
+      alt="University Fashion Through the Years" 
+      style={{ 
+        width: '500px', 
+        height: '375px', 
+        objectFit: 'cover',
+        borderRadius: '20px',
+        display: 'block'
+      }}
+    />
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>
+      <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
+        March 02, 2026
+      </time>
+      <h3 style={{ fontSize: '40px', fontWeight: '500', lineHeight: '1.2', margin: '0', color: '#ffffff' }}>
+        University Fashion: How Students Dressed Throughout the Years
+      </h3>
+      <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#e0e0e0', margin: '0' }}>
+        From 90s streetwear to 2000s minimalism — exploring what drives student fashion choices, then and now at the University of Waterloo.
+      </p>
+    </div>
+  </article>
+</a>
         </div>
       </main>
 
