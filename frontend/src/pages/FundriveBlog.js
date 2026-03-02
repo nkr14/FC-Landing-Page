@@ -109,7 +109,7 @@ const FundriveBlog = () => {
         {/* Latest Blog Card */}
         <div style={{ marginTop: '120px', paddingTop: '80px', borderTop: '1px solid #333' }}>
           <h2 style={{ fontSize: '36px', fontWeight: '500', marginBottom: '48px', color: '#ffffff', textAlign: 'left' }}>
-            latest blog
+            Latest Blog
           </h2>
           
           <a href="/blog/university-fashion" style={{ textDecoration: 'none', color: 'inherit' }}>
