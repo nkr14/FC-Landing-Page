@@ -40,7 +40,7 @@ export default function UniversityFashionBlog() {
           lineHeight: 1.15,
           marginBottom: '1.5rem',
         }}>
-          University Fashion: How Students Dressed Throughout the Years
+          University Fashion:<br />How Students Dressed Throughout the Years
         </h1>
 
         <div style={{
