@@ -62,7 +62,7 @@ const Blog = () => {
         color: '#ffffff',
         textTransform: 'none'
       }}>
-        University Fashion: How Students Dressed Throughout the Years
+        University Fashion:<br />How Students Dressed Throughout the Years
       </h2>
       <p style={{ 
         fontSize: '18px', 
