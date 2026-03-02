@@ -20,7 +20,7 @@ const Blog = () => {
           textAlign: 'left',
           paddingLeft: '0'
         }}>
-          The Blog
+          BLOG
         </h1>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '80px' }}>
