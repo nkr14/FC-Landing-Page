@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar.js";
 import Footer from "../components/Footer.js";
 import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 import aiDilemmaHeader from "../images/IMG_0339.JPG";
+import universityFashionHeader from "../images/blog/university-fashion/Image_7.jpg";
 
 const Blog = () => {
   return (
@@ -19,11 +20,62 @@ const Blog = () => {
           textAlign: 'left',
           paddingLeft: '0'
         }}>
-          the blog
+          The Blog
         </h1>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '80px' }}>
-          {/* AI Dilemma Blog Post - Most Recent */}
+{/* University Fashion Blog Post - Most Recent */}
+<Link to="/blog/university-fashion" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article style={{ 
+    display: 'grid', 
+    gridTemplateColumns: '530px 1fr', 
+    gap: '60px', 
+    alignItems: 'center'
+  }}>
+    <img 
+      src={universityFashionHeader}
+      alt="University fashion through the years" 
+      style={{ 
+        width: '530px', 
+        height: '330px', 
+        objectFit: 'cover',
+        borderRadius: '12px',
+        flexShrink: 0,
+        display: 'block'
+      }}
+    />
+    <div style={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      justifyContent: 'center', 
+      gap: '20px',
+      textAlign: 'left'
+    }}>
+      <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
+        March 02, 2026
+      </time>
+      <h2 style={{ 
+        fontSize: '56px', 
+        fontWeight: '500', 
+        lineHeight: '1.1',
+        margin: '0',
+        color: '#ffffff',
+        textTransform: 'none'
+      }}>
+        University Fashion: How Students Dressed Throughout the Years
+      </h2>
+      <p style={{ 
+        fontSize: '18px', 
+        lineHeight: '1.5',
+        color: '#e0e0e0',
+        margin: '0'
+      }}>
+        From 90s streetwear to 2000s minimalism — exploring what drives <br /> student fashion choices, then and now at the University of Waterloo.
+      </p>
+    </div>
+  </article>
+</Link>
+          {/* AI Dilemma Blog Post */}
           <Link to="/blog/ai-dilemma" style={{ textDecoration: 'none', color: 'inherit' }}>
             <article style={{ 
               display: 'grid', 
