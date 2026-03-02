@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../../components/Navbar.js';
+import Navbar from '../components/Navbar.js';
 
 import img7 from '../../images/blog/university-fashion/Image_7.jpg';
 import img6 from '../../images/blog/university-fashion/Image_6.jpg';
