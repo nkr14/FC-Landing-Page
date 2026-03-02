@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../components/Navbar.js';
 
-import img7 from '../../images/blog/university-fashion/Image_7.jpg';
-import img6 from '../../images/blog/university-fashion/Image_6.jpg';
-import img3 from '../../images/blog/university-fashion/Image_3.jpg';
-import img2 from '../../images/blog/university-fashion/Image_2.jpg';
-import img1 from '../../images/blog/university-fashion/Image_1.jpg';
-import img4 from '../../images/blog/university-fashion/Image_4.jpg';
+import img7 from '../images/blog/university-fashion/Image_7.jpg';
+import img6 from '../images/blog/university-fashion/Image_6.jpg';
+import img3 from '../images/blog/university-fashion/Image_3.jpg';
+import img2 from '../images/blog/university-fashion/Image_2.jpg';
+import img1 from '../images/blog/university-fashion/Image_1.jpg';
+import img4 from '../images/blog/university-fashion/Image_4.jpg';
 
 export default function UniversityFashionBlog() {
   return (
