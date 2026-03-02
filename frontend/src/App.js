@@ -44,9 +44,6 @@ import FundriveBlog from './pages/FundriveBlog.js'
 import AIDilemmaBlog from './pages/AIDilemmaBlog.js'
 import UniversityFashionBlog from './pages/UniversityFashionBlog.js'
 
-// inside <Routes>:
-<Route path="/blog/university-fashion" element={<UniversityFashionBlog />} />
-
 function App() {
   return (
     <div className="App">
@@ -189,6 +186,10 @@ function App() {
              <Route
               path="/blog/ai-dilemma"
               element={<AIDilemmaBlog />}
+             <Route 
+              path="/blog/university-fashion" 
+              element={<UniversityFashionBlog />} 
+            />
             />
           </Routes>
         </BrowserRouter>
