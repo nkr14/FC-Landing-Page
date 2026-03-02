@@ -5,7 +5,7 @@ import blog1stPhoto from "../images/blog-1st-photo.jpeg";
 import blog2ndPhoto from "../images/blog-2nd-photo-reduced.jpeg";
 import blog3rdPhoto from "../images/blog-3rd-photo.webp";
 import blogVector from "../images/Blog-Vector.png";
-import aiDilemmaHeader from "../images/IMG_0339.JPG";
+import universityFashionHeader from "../images/blog/university-fashion/Image_7.jpg";
 
 const FundriveBlog = () => {
   return (
@@ -106,61 +106,45 @@ const FundriveBlog = () => {
           </div>
         </article>
 
-        {/* Latest Blog Card - AI Dilemma */}
+        {/* Latest Blog Card */}
         <div style={{ marginTop: '120px', paddingTop: '80px', borderTop: '1px solid #333' }}>
           <h2 style={{ fontSize: '36px', fontWeight: '500', marginBottom: '48px', color: '#ffffff', textAlign: 'left' }}>
             latest blog
           </h2>
           
-          <a href="/blog/ai-dilemma" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <article style={{ 
-              display: 'grid', 
-              gridTemplateColumns: '500px 1fr', 
-              gap: '48px', 
-              alignItems: 'center',
-              transition: 'opacity 0.3s',
-              cursor: 'pointer'
-            }}>
-              <img 
-                src={aiDilemmaHeader}
-                alt="Fashion's AI Dilemma" 
-                style={{ 
-                  width: '500px', 
-                  height: '375px', 
-                  objectFit: 'cover',
-                  borderRadius: '20px',
-                  display: 'block'
-                }}
-              />
-
-              <div style={{ 
-                display: 'flex', 
-                flexDirection: 'column', 
-                gap: '16px',
-                textAlign: 'left'
-              }}>
-                <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
-                  December 06, 2025
-                </time>
-
-                <h3 style={{ 
-                  fontSize: '40px', 
-                  fontWeight: '500', 
-                  lineHeight: '1.2',
-                  margin: '0',
-                  color: '#ffffff'
-                }}>
-                  Fashion's AI Dilemma: Efficiency at What Cost?
-                </h3>
-
-                <p style={{ 
-                  fontSize: '18px', 
-                  lineHeight: '1.6',
-                  color: '#e0e0e0',
-                  margin: '0'
-                }}>
-                  As generative AI rises in popularity, fashion faces a critical question: can we <br /> harness efficiency without sacrificing creativity and human connection?
-                </p>
+          <a href="/blog/university-fashion" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article style={{ 
+    display: 'grid', 
+    gridTemplateColumns: '500px 1fr', 
+    gap: '48px', 
+    alignItems: 'center',
+    transition: 'opacity 0.3s',
+    cursor: 'pointer'
+  }}>
+    <img 
+      src={universityFashionHeader}
+      alt="University Fashion Through the Years" 
+      style={{ 
+        width: '500px', 
+        height: '375px', 
+        objectFit: 'cover',
+        borderRadius: '20px',
+        display: 'block'
+      }}
+    />
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>
+      <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
+        March 02, 2026
+      </time>
+      <h3 style={{ fontSize: '40px', fontWeight: '500', lineHeight: '1.2', margin: '0', color: '#ffffff' }}>
+        University Fashion: How Students Dressed Throughout the Years
+      </h3>
+      <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#e0e0e0', margin: '0' }}>
+        From 90s streetwear to 2000s minimalism — exploring what drives student fashion choices, then and now at the University of Waterloo.
+      </p>
+    </div>
+  </article>
+</a>
               </div>
             </article>
           </a>
