@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar.js";
 import Footer from "../components/Footer.js";
 import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 import aiDilemmaHeader from "../images/IMG_0339.JPG";
-import universityFashionHeader from "../images/blog/university-fashion/Image_1.jpg";
+import universityFashionHeader from "../images/blog/university-fashion/Image_8.jpg";
 
 const Blog = () => {
   return (
