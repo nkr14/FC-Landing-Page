@@ -111,7 +111,7 @@ export default function UniversityFashionBlog() {
           {/* Tops image */}
           <figure style={{ margin: '2rem 0 3rem 0' }}>
             <img
-              src={img7}
+              src={img1}
               alt="Student tops — crew necks, sweaters, button-ups, tank tops"
               style={{ width: '100%', borderRadius: '10px', display: 'block' }}
             />
@@ -127,7 +127,7 @@ export default function UniversityFashionBlog() {
           {/* Bottoms image */}
           <figure style={{ margin: '2rem 0 3rem 0' }}>
             <img
-              src={img6}
+              src={img2}
               alt="Student bottoms — jeans, lounging pants, lacy skirts"
               style={{ width: '100%', borderRadius: '10px', display: 'block' }}
             />
@@ -175,7 +175,7 @@ export default function UniversityFashionBlog() {
           {/* Makeup image */}
           <figure style={{ margin: '2rem 0 3rem 0' }}>
             <img
-              src={img2}
+              src={img6}
               alt="Student makeup — simple looks, skincare-first approach"
               style={{ width: '100%', borderRadius: '10px', display: 'block' }}
             />
@@ -191,7 +191,7 @@ export default function UniversityFashionBlog() {
           {/* Hair image */}
           <figure style={{ margin: '2rem 0 3rem 0' }}>
             <img
-              src={img1}
+              src={img7}
               alt="Student hair styles — French braid, taper fade, heatless curls, dyed hair"
               style={{ width: '100%', borderRadius: '10px', display: 'block' }}
             />
