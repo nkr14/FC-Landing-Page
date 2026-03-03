@@ -3,10 +3,10 @@ import Navbar from '../components/Navbar.js';
 
 import img7 from '../images/blog/university-fashion/Image_7.jpg';
 import img6 from '../images/blog/university-fashion/Image_6.jpg';
-import img3 from '../images/blog/university-fashion/Image_3.jpg';
 import img2 from '../images/blog/university-fashion/Image_2.jpg';
 import img1 from '../images/blog/university-fashion/Image_1.jpg';
 import img4 from '../images/blog/university-fashion/Image_4.jpg';
+import img5 from '../images/blog/university-fashion/Image_5.jpg';
 
 export default function UniversityFashionBlog() {
   return (
@@ -159,7 +159,7 @@ export default function UniversityFashionBlog() {
           {/* Accessories image */}
           <figure style={{ margin: '2rem 0 3rem 0' }}>
             <img
-              src={img3}
+              src={img5}
               alt="Student accessories — rings, chains, bracelets, earrings, bags"
               style={{ width: '100%', borderRadius: '10px', display: 'block' }}
             />
