@@ -59,7 +59,7 @@ const Blog = () => {
         fontSize: '56px', 
         fontWeight: '500', 
         lineHeight: '1.1',
-        textTransform: 'none'
+        textTransform: 'none',
         margin: '0',
         color: '#ffffff',
       }}>
