@@ -4,6 +4,7 @@ import Footer from "../components/Footer.js";
 import blogHeaderPhoto from "../images/blog-header-photo.jpeg";
 import aiDilemmaHeader from "../images/IMG_0339.JPG";
 import universityFashionHeader from "../images/blog/university-fashion/Image_8.jpg";
+import sustainabilityHeader from '../images/blog/fashion-sustainability.jpg';
 
 const Blog = () => {
   return (
@@ -24,7 +25,57 @@ const Blog = () => {
         </h1>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '80px' }}>
-{/* University Fashion Blog Post - Most Recent */}
+{/* Sustainability Blog Post - Most Recent */}
+<Link to="/blog/sustainability" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article style={{ 
+    display: 'grid', 
+    gridTemplateColumns: '530px 1fr', 
+    gap: '60px', 
+    alignItems: 'center'
+  }}>
+    <img 
+      src={sustainabilityHeader}
+      alt="Sustainability in the fashion industry" 
+      style={{ 
+        width: '530px', 
+        height: '330px', 
+        objectFit: 'cover',
+        borderRadius: '12px',
+        flexShrink: 0,
+        display: 'block'
+      }}
+    />
+    <div style={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      justifyContent: 'center', 
+      gap: '20px',
+      textAlign: 'left'
+    }}>
+      <time style={{ color: '#a0a0a0', fontSize: '16px' }}>
+        March 17, 2026
+      </time>
+      <h2 style={{ 
+        fontSize: '56px', 
+        fontWeight: '500', 
+        lineHeight: '1.1',
+        margin: '0',
+        color: '#ffffff',
+      }}>
+        Sustainability in the Fashion Industry
+      </h2>
+      <p style={{ 
+        fontSize: '18px', 
+        lineHeight: '1.5',
+        color: '#e0e0e0',
+        margin: '0'
+      }}>
+        Over 63% of fashion companies are not on track to meet their decarbonization goals — and greenwashing is making it harder to tell who's actually doing the work.
+      </p>
+    </div>
+  </article>
+</Link>
+{/* University Fashion Blog Post */}
 <Link to="/blog/university-fashion" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article style={{ 
     display: 'grid', 
