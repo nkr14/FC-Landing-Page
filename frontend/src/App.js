@@ -43,6 +43,7 @@ import Blog from './pages/Blog.js'
 import FundriveBlog from './pages/FundriveBlog.js'
 import AIDilemmaBlog from './pages/AIDilemmaBlog.js'
 import UniversityFashionBlog from './pages/UniversityFashionBlog.js'
+import SustainabilityBlog from './pages/SustainabilityBlog.js';
 
 function App() {
   return (
@@ -190,6 +191,10 @@ function App() {
             <Route
               path="/blog/university-fashion"
               element={<UniversityFashionBlog />}
+            />
+            <Route 
+              path="/blog/sustainability"
+              element={<SustainabilityBlog />} 
             />
             />
           </Routes>
