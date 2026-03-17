@@ -51,8 +51,8 @@ const SustainabilityBlog = () => {
               While many companies in the fashion industry have set deep decarbonization goals for the next 15 years, over 63% are not on track to reach them. The push towards sustainability has encouraged some companies to shift their policies and workflows, yet we are finding increasing cases of greenwashing, a tactic wherein items are marketed as "eco friendly" or "sustainable" with limited backing.
             </p>
 
-            <h2 style={{ fontSize: '32px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff' }}>
-              GREENWASHING
+            <h2 style={{ fontSize: '32px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff', textTransform: 'none' }}>
+              Greenwashing
             </h2>
 
             <p style={{ fontSize: '20px', lineHeight: '1.7', margin: '0', color: '#e0e0e0' }}>
@@ -63,8 +63,8 @@ const SustainabilityBlog = () => {
               Often, in marketing campaigns for the fashion industry, buzzwords like "green," "sustainable," and "eco friendly" are used without quantifiable action. This strategy imagines them sustainable without requiring altering production methods. Companies also often highlight the small environmental initiatives they take, directing our attention away from their larger negative impacts. Alternatively, more sustainably produced products may be advertised to a disproportionate extent, leading them to misrepresent the scale of their impact on the company.
             </p>
 
-            <h2 style={{ fontSize: '32px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff' }}>
-              WHAT ARE COMPANIES DOING?
+            <h2 style={{ fontSize: '32px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff', textTransform: 'none' }}>
+              What Are Companies Doing?
             </h2>
 
             <p style={{ fontSize: '20px', lineHeight: '1.7', margin: '0', color: '#e0e0e0' }}>
@@ -75,8 +75,8 @@ const SustainabilityBlog = () => {
               Aside from obtaining certifications, big brands are slowly moving towards more sustainable practices. One example is luxury brand Hermès, which has reduced their emissions by over 50% by following the circular economy model, and practicing frugality in their material management. They have also made the switch to renewable energy sources, helping them to support carbon mitigation efforts.
             </p>
 
-            <h2 style={{ fontSize: '32px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff' }}>
-              WHAT CAN CONSUMERS DO?
+            <h2 style={{ fontSize: '32px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff', textTransform: 'none' }}>
+              What Can Consumers Do?
             </h2>
 
             <p style={{ fontSize: '20px', lineHeight: '1.7', margin: '0', color: '#e0e0e0' }}>
@@ -87,8 +87,8 @@ const SustainabilityBlog = () => {
               Additionally, consumer shopping practices can play a great role in sustainable fashion. Thrifting and second hand shopping have increased in popularity, often making fashionable items available to consumers at lower price points, and reducing clothing waste. Furthermore, focusing on rewearing and restyling the clothing in one's wardrobe over buying new items can encourage creativity, and reduce consumption.
             </p>
 
-            <h2 style={{ fontSize: '32px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff' }}>
-              WHAT IS FC DOING?
+            <h2 style={{ fontSize: '32px', fontWeight: '500', lineHeight: '1.3', margin: '24px 0 0 0', color: '#ffffff', textTransform: 'none' }}>
+              What Is FC Doing?
             </h2>
 
             <p style={{ fontSize: '20px', lineHeight: '1.7', margin: '0', color: '#e0e0e0' }}>
