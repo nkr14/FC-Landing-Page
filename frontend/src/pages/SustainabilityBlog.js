@@ -10,7 +10,7 @@ const SustainabilityBlog = () => {
       <Navbar />
 
       {/* Hero Image - Full Width */}
-      <<div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left', maxWidth: '1100px', margin: '0 auto', width: '100%' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left', maxWidth: '1100px', margin: '0 auto', width: '100%' }}>
       <div style={{ color: '#a0a0a0', fontSize: '18px', display: 'block', textAlign: 'left' }}>
         March 17, 2026
       </div>
