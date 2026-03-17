@@ -10,30 +10,21 @@ const SustainabilityBlog = () => {
       <Navbar />
 
       {/* Hero Image - Full Width */}
-      <div style={{ width: '100%', height: '700px', overflow: 'hidden' }}>
-        <img
-          src={sustainabilityHeader}
-          alt="Sustainability in the Fashion Industry"
-          style={{ width: '100%', height: '700px', objectFit: 'cover', display: 'block' }}
-        />
+      <<div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left', maxWidth: '1100px', margin: '0 auto', width: '100%' }}>
+      <div style={{ color: '#a0a0a0', fontSize: '18px', display: 'block', textAlign: 'left' }}>
+        March 17, 2026
       </div>
-
-      <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '80px 48px' }}>
-        {/* Hero Section */}
-        <article style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>
-            <div style={{ color: '#a0a0a0', fontSize: '18px', display: 'block', textAlign: 'left' }}>
-              March 17, 2026
-            </div>
-
-            <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '32px' }}>
-              <h1 style={{ fontSize: '60px', fontWeight: '500', lineHeight: '1.2', flex: '1', margin: '0', color: '#ffffff', textAlign: 'left' }}>
-                Sustainability in the Fashion Industry
-              </h1>
-            </div>
-
-            <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '1200px', margin: '0', textAlign: 'left' }}>
-              While many companies have set deep decarbonization goals, over 63% are not on track to reach them — and greenwashing is making it harder to tell who's actually doing the work.
+      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '32px' }}>
+      <h1 style={{ fontSize: '60px', fontWeight: '500', lineHeight: '1.2', flex: '1', margin: '0', color: '#ffffff', textAlign: 'left' }}>
+      Sustainability in the Fashion Industry
+    </h1>
+    </div>
+    <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '1200px', margin: '0', textAlign: 'left' }}>
+    While many companies have set deep decarbonization goals, over 63% are not on track to reach them — and greenwashing is making it harder to tell who's actually doing the work.
+    </p>
+    </div>
+    <p style={{ fontSize: '20px', color: '#d0d0d0', lineHeight: '1.6', maxWidth: '1200px', margin: '0', textAlign: 'left' }}>
+    While many companies have set deep decarbonization goals, over 63% are not on track to reach them — and greenwashing is making it harder to tell who's actually doing the work.
             </p>
           </div>
 
